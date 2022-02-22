@@ -23,7 +23,7 @@ minimal_mistakes_skin    : default # "air", "aqua", "contrast", "dark", "dirt", 
 # in the templates via {{ site.myvariable }}.
 locale: "en-US"
 name: "Huy T. Tran"
-title: "Tran Research Group"
+title: "Tran Research Group"  # the website title (if blank, full name will be used instead)
 title_separator: ""
 subtitle: # site tagline that appears below site title in masthead
 description: "Website for the Tran Research Group"
