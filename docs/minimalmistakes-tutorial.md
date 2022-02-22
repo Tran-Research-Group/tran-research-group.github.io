@@ -155,3 +155,7 @@ Run the following to locally test and spin up your site! You can view your site 
     Note that if you are using Ruby version 3.0.0 or higher, the `bundle exec jekyll serve` command may fail. You may fix it by adding webrick to your dependencies.
 
         $ bundle add webrick
+
+## Deployment
+
+The [jekyll-deploy-action](https://github.com/jeffreytse/jekyll-deploy-action) can be used to automate local deployment (e.g., to use plug-ins).
