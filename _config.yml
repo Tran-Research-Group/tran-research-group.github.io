@@ -110,12 +110,6 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
-#   - jekyll-paginate
-#   - jekyll-sitemap
-#   - jekyll-gist
-#   - jekyll-feed
-#   - jemoji
-#   - jekyll-include-cache
   - jekyll-scholar
 
 scholar:
@@ -133,10 +127,9 @@ scholar:
   bibtex_filters: [latex, smallcaps, superscript]
   replace_strings: true
   join_strings: true
-  # details_dir: bibliography
-  # details_layout: bibtex.html
-  # details_link: Details
-
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
   query: "@*"
 
 # Archives
