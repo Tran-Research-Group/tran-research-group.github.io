@@ -8,11 +8,6 @@ years: [2017, 2018]
 # nav: true
 ---
 
-<div class="publications">
+Under construction.
 
-{%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f references -q @*[year={{y}}]* %}
-{% endfor %}
-
-</div>
+{% bibliography %}
