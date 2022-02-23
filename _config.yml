@@ -12,8 +12,8 @@
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-# theme                  : "minimal-mistakes-jekyll"
-remote_theme             : mmistakes/minimal-mistakes
+theme                  : "minimal-mistakes-jekyll"
+# remote_theme             : mmistakes/minimal-mistakes
 minimal_mistakes_skin    : default # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site settings
@@ -110,20 +110,35 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+#   - jekyll-paginate
+#   - jekyll-sitemap
+#   - jekyll-gist
+#   - jekyll-feed
+#   - jemoji
+#   - jekyll-include-cache
   - jekyll-scholar
 
 scholar:
-   style: "apa"
-   locale: "en"
-   source: "/_bibliography"
-   bibliography: "references.bib"
-   bibliography_template: "bib"
+  last_name: Einstein
+  first_name: [Albert, A.]
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  # bibliography_template: bib
+  # Note: if you have latex math in your bibtex, the latex filter
+  # preprocessing may conflict with MathJAX if the latter is enabled.
+  # See https://github.com/alshedivat/al-folio/issues/357.
+  bibtex_filters: [latex, smallcaps, superscript]
+
+  replace_strings: true
+  join_strings: true
+
+  # details_dir: bibliography
+  # details_layout: bibtex.html
+  # details_link: Details
+
+  query: "@*"
 
 # Archives
 #  Type
