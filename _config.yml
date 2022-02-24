@@ -114,7 +114,7 @@ plugins:
 
 scholar:
   last_name: Tran
-  first_name: [Huy, H., Huy T.]
+  first_name: [Huy, H., Huy T., Huy T]
   # style: /_bibliography/simple-ieee.csl
   style: ieee
   locale: en
@@ -168,5 +168,5 @@ defaults:
       type: pages
     values:
       layout: single
-      classes: wide2
+      classes: wide_full
       author_profile: false
