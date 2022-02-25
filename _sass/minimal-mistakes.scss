@@ -143,15 +143,16 @@ $text-color: $gray !default;
       }
       .links {
         a.btn {
-          color: $emphasis-color;
+          background-color: $code-background-color;
           border: 1px solid $border-color;
+          color: $link-color;
           padding-left: 1em;
           padding-right: 1em;
           padding-top: 0.25em;
           padding-bottom: 0.25em;
           &:hover {
-            color: $emphasis-color;
             border-color: $border-color;
+            color: $link-color-hover;
           }
         }
       }
