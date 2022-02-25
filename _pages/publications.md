@@ -12,6 +12,9 @@ Our publications can also be found on [Google Scholar](https://scholar.google.co
 <!-- _pages/publications.md -->
 <div class="publications">
 
+<h2 class="year">Preprints</h2>
+{% bibliography -f papers -q @techreport %}
+
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}
