@@ -57,6 +57,12 @@ $light-muted-emphasis-color: mix(#fff, $uiuc-blue-color, 50%);
 // $text-color: $dark-gray !default;
 $text-color: $gray !default;
 
+/* Padding */
+$padding-medium: 1em;
+$padding-small: 0.5em;
+$padding-smaller: 0.25em;
+$padding-smallest: 0.125em;
+
 /* Wide layout (no left or right sidebar) */
 .wide_full {
     .page {
@@ -92,7 +98,7 @@ $text-color: $gray !default;
     color: $h2-color;
     border-top: 1px solid $border-color;
     border-bottom: none;
-    padding-top: 0.5em;
+    padding-top: $padding-small;
     text-align: right;
   }
   ol.bibliography {
@@ -142,14 +148,15 @@ $text-color: $gray !default;
         }
       }
       .links {
+        padding-top: $padding-smallest;
         a.btn {
           background-color: $code-background-color;
           border: 1px solid $border-color;
           color: $link-color;
-          padding-left: 1em;
-          padding-right: 1em;
-          padding-top: 0.25em;
-          padding-bottom: 0.25em;
+          padding-left: $padding-medium;
+          padding-right: $padding-medium;
+          padding-top: $padding-small;
+          padding-bottom: $padding-small;
           &:hover {
             border-color: $border-color;
             color: $link-color-hover;
