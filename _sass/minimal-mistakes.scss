@@ -127,18 +127,18 @@ $text-color: $gray !default;
       }
       .author {
         // link for co-authors
-        a {
-          border-bottom: 1px dashed $muted-emphasis-color;
-          &:hover {
-              border-bottom-style: solid;
-              text-decoration: none;
-          }
-        }
+        // a {
+        //   border-bottom: 1px dashed;
+        //   &:hover {
+        //       border-bottom-style: solid;
+        //       text-decoration: none;
+        //   }
+        // }
         // emphasis on PI
         > em {
-          border-bottom: 1px solid;
+          // border-bottom: 1px solid;
           font-style: normal;
-          color: $emphasis-color;
+          // color: $emphasis-color;
         }
       }
       .links {
