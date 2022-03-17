@@ -157,6 +157,7 @@ defaults:
       type: posts
     values:
       layout: single
+      classes: wide_full
       author_profile: false
       read_time: false
       comments: false
