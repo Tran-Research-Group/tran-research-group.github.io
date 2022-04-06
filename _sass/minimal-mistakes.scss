@@ -65,7 +65,7 @@ $padding-smallest: 0.125em;
 
 /* Figures */
 $figure-width: 500px;
-figure-size {
+figure-full-caption {
   display: -webkit-box;
   display: flex;
   flex-flow: column;  /* caption below image */
@@ -115,7 +115,7 @@ figure-size {
     }
 
     figcaption {
-      width: $figure-width;
+      width: 100%;
     }
   }
 }

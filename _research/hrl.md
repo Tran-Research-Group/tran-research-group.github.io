@@ -12,10 +12,10 @@ We work on hierarchical reinforcement learning (RL) methods to create autonomous
 
 ## Bioinspired discovery of hierarchical subtasks
 
-<figure-size>
+<figure-full-caption>
 	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/snac.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/snac.png"></a>
 	<figcaption>Value maps for two learned sub-policies. The object-based option is learned using features specialized to focus on dynamic objects - it appears to have the blue agent prevent the enemy agent (E) from reaching the blue flag (blue star). The spatial-based option is learning using spatial features and is independent of the enemy.</figcaption>
-</figure-size>
+</figure-full-caption>
 
 Inspired by recent discoveries in neuroscience, this work explores the use of **feature specialization and clustering** to decompose environments into a useful task subspace for hierarchical RL. See our ALA Workshop [paper]({% post_url 2022-03-12-aamas-snac %}) presenting our approach, named **Specialized Neurons and Clustering (SNAC)**, for more details.
 

@@ -22,7 +22,13 @@ We work on [short summary]...
   <source src="/assets/videos/dissc.mp4" type="video/mp4">
 </video>
 
-<!-- example image (default width) -->
+<!-- example image (500px width = default) -->
+<figure style="width: 500px">
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png"></a>
+	<figcaption>Figure caption.</figcaption>
+</figure>
+
+<!-- example image (500px width = default) where the caption spans the full page -->
 <figure-size>
 	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png"></a>
 	<figcaption>Figure caption.</figcaption>
@@ -30,22 +36,22 @@ We work on [short summary]...
 
 <!-- example image (full width) -->
 <figure>
-	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png" style="width:500px"></a>
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png"></a>
 	<figcaption>Figure caption.</figcaption>
 </figure>
 
-<!-- example of 2 side-by-side images -->
+<!-- example of 2 side-by-side images (500px width = default) -->
 <figure class="half">
     <a href="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png" style="width:500px"></a>
     <a href="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png" style="width:500px"></a>
     <figcaption>Figure caption.</figcaption>
 </figure>
 
-<!-- example of 3 side-by-side images -->
+<!-- example of 3 side-by-side images (may want to specify default width) -->
 <figure class="third">
-	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png" style="width:500px"></a>
-	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png" style="width:500px"></a>
-	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png" style="width:500px"></a>
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png"></a>
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png"></a>
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/placeholder.png"></a>
 	<figcaption>Figure caption.</figcaption>
 </figure>
 

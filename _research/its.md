@@ -16,10 +16,10 @@ This work explores applications of MARL to traffic light control. We are specifi
 
 ## Evaluating STGNNs for air transportation networks
 
-<figure-size>
+<figure-full-caption>
 	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/us-atn.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/us-atn.png"></a>
 	<figcaption>Visualization of the US air transportation network studied in our work.</figcaption>
-</figure-size>
+</figure-full-caption>
 
 This work builds upon our earlier work using [STGNNs for railway networks](#predicting-delays-in-railway-networks) by exploring potential benefits of STGNNs with **various graph convolution operations** towards delay prediction in air transportation networks.
 
