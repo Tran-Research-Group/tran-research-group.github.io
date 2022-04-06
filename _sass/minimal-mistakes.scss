@@ -63,6 +63,63 @@ $padding-small: 0.5em;
 $padding-smaller: 0.25em;
 $padding-smallest: 0.125em;
 
+/* Figures */
+$figure-width: 500px;
+figure-size {
+  display: -webkit-box;
+  display: flex;
+  flex-flow: column;  /* caption below image */
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 2em 0;
+
+  img,
+  iframe,
+  .fluid-width-video-wrapper {
+    margin-bottom: 1em;
+  }
+
+  img {
+    width: $figure-width;
+    border-radius: $border-radius;
+    -webkit-transition: $global-transition;
+    transition: $global-transition;
+  }
+
+  > a {
+    display: block;
+  }
+
+  &.half {
+    > a,
+    > img {
+      @include breakpoint($small) {
+        width: calc(50% - 0.5em);
+      }
+    }
+
+    figcaption {
+      width: 100%;
+    }
+  }
+
+  &.third {
+    > a,
+    > img {
+      @include breakpoint($small) {
+        width: calc(33.3333% - 0.5em);
+      }
+    }
+
+    figcaption {
+      width: $figure-width;
+    }
+  }
+}
+
 /* Wide layout (no left or right sidebar) */
 .wide_full {
     .page {
@@ -91,6 +148,23 @@ $padding-smallest: 0.125em;
       }
     }
   }
+
+/* Buttons */
+.button_general
+{
+	background-color: $code-background-color;
+  border: 1px solid $border-color;
+  color: $link-color;
+  padding-left: $padding-medium;
+  padding-right: $padding-medium;
+  padding-top: $padding-small;
+  padding-bottom: $padding-small;
+  text-decoration: none;
+  &:hover {
+    border-color: $border-color;
+    color: $link-color-hover;
+  }
+}
 
 /* Publications (modifed from al-folio) */
 .publications {
