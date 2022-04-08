@@ -1,0 +1,6 @@
+I"4<p>We work on artificial intelligence and controls methods to enable autonomous flight vehicles, for example for space applications and urban air mobility.</p>
+
+<h2 id="fast-adaptation-for-autonomous-landers">Fast adaptation for autonomous landers</h2>
+
+<p>This work explores the use of <strong>model-based meta-RL</strong> for designing a navigation and control system for autonomous landing of a space vehicles. The system aims to be robust to potential uncertainties or new dynamics, for example due to engine failures or unexpected atmospheric conditions.</p>
+:ET

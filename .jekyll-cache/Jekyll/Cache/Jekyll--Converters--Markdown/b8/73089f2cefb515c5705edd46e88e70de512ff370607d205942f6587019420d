@@ -1,0 +1,751 @@
+I"�l<p>Our publications can also be found on <a href="https://scholar.google.com/citations?user=TgaPukcAAAAJ&amp;hl=en">Google Scholar</a>.</p>
+
+<!-- _pages/publications.md -->
+<div class="publications">
+
+<h2 class="year">Preprints</h2>
+<ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="Dimon2021" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">D-AnoGAN: Anomaly Detection in Disconnected Data Manifolds with Generative Adversarial Networks</div>
+          <!-- Author -->
+          <div class="author"><!-- Dimon, Walker L,&nbsp; -->
+                    Walker L Dimon,<!-- Chase, Nicholas B,&nbsp; -->
+                    Nicholas B Chase,<!-- Stralen, Neale Van,&nbsp; -->
+                    Neale Van Stralen,<!-- Nigam, Rupal,&nbsp; -->
+                    Rupal Nigam,<!-- Lembeck, Michael F,&nbsp; -->
+                    Michael F Lembeck,<!-- and <em>Tran, Huy T</em> -->
+                  and <em>Huy T Tran</em>
+                
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="gasparino" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">WayFAST: Traversability Predictive Navigation for Field Robots</div>
+          <!-- Author -->
+          <div class="author"><!-- Gasparino, Mateus V,&nbsp; -->
+                    Mateus V Gasparino,<!-- Sivakumar, Arun N,&nbsp; -->
+                    Arun N Sivakumar,<!-- Liu, Yixiao,&nbsp; -->
+                    Yixiao Liu,<!-- Velasquez, Andres E B,&nbsp; -->
+                    Andres E B Velasquez,<!-- Higuti, Vitor A H,&nbsp; -->
+                    Vitor A H Higuti,<!-- Rogers, John,&nbsp; -->
+                    John Rogers,
+                  <!-- <em>Tran, Huy</em>,&nbsp; -->
+                  <em>Huy Tran</em>,<!-- and Chowdhary, Girish -->
+                    and Girish Chowdhary
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+              <a href="https://doi.org/10.48550/arXiv.2203.12071" target="_blank" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+          <!--
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> -->
+          </div>
+
+          <!-- -->
+          <!-- Hidden abstract block -->
+          <!-- <div class="abstract hidden">
+            <p>We present a self-supervised approach for learning to predict traversable paths for wheeled mobile robots that require good traction to navigate. Our algorithm, termed WayFAST (Waypoint Free Autonomous Systems for Traversability), uses RGB and depth data, along with navigation experience, to autonomously generate traversable paths in outdoor unstructured environments. Our key inspiration is that traction can be estimated for rolling robots using kinodynamic models. Using traction estimates provided by an online receding horizon estimator, we are able to train a traversability prediction neural network in a self-supervised manner, without requiring heuristics utilized by previous methods. We demonstrate the effectiveness of WayFAST through extensive field testing in varying environments, ranging from sandy dry beaches to forest canopies and snow covered grass fields. Our results clearly demonstrate that WayFAST can learn to avoid geometric obstacles as well as untraversable terrain, such as snow, which would be difficult to avoid with sensors that provide only geometric data, such as LiDAR. Furthermore, we show that our training pipeline based on online traction estimates is more data-efficient than other heuristic-based methods.</p>
+          </div>-->
+
+          <!--  -->
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="heglund" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">On the Value of Graph Neural Networks for Predicting Delays in Air Transportation Networks</div>
+          <!-- Author -->
+          <div class="author"><!-- Heglund, Jacob,&nbsp; -->
+                    Jacob Heglund,<!-- and <em>Tran, Huy T</em> -->
+                  and <em>Huy T Tran</em>
+                
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li></ol>
+  <h2 class="year">2022</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="Markina-khusid2021" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">A Complex Network Framework for Validated Assessments of Systems of Systems Robustness</div>
+          <!-- Author -->
+          <div class="author"><!-- Markina-khusid, Aleksandra,&nbsp; -->
+                    Aleksandra Markina-khusid,<!-- Jacobs, Ryan B,&nbsp; -->
+                    Ryan B Jacobs,<!-- Antul, Laura,&nbsp; -->
+                    Laura Antul,<!-- Cho, Lance,&nbsp; -->
+                    Lance Cho,<!-- and <em>Tran, Huy T</em> -->
+                  and <em>Huy T Tran</em>
+                
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>IEEE Systems Journal</em>, 2022
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links"><a href="https://doi.org/10.1109/JSYST.2021.3064817" target="_blank" class="btn btn-sm z-depth-0" role="button">DOI</a>
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="Kim2021a" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Coordination in Multi-agent Reinforcement Learning with Successor Features</div>
+          <!-- Author -->
+          <div class="author"><!-- Kim, Seung Hyun,&nbsp; -->
+                    Seung Hyun Kim,<!-- Stralen, Neale Van,&nbsp; -->
+                    Neale Van Stralen,<!-- Chowdhary, Girish,&nbsp; -->
+                    Girish Chowdhary,<!-- and <em>Tran, Huy T</em> -->
+                  and <em>Huy T Tran</em>
+                
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proc. of the 21st International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2022)</em>, 2022
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+              <a href="https://doi.org/10.48550/arXiv.2202.07741" target="_blank" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="Stralen2021" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Feature Specialization and Clustering Improves Hierarchical Sub-task Learning</div>
+          <!-- Author -->
+          <div class="author"><!-- Stralen, Neale Van,&nbsp; -->
+                    Neale Van Stralen,<!-- Kim, Seung,&nbsp; -->
+                    Seung Kim,
+                  <!-- <em>Tran, Huy T</em>,&nbsp; -->
+                  <em>Huy T Tran</em>,<!-- and Chowdhary, Girish -->
+                    and Girish Chowdhary
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Proc. of the Adaptive and Learning Agents Workshop (ALA 2022)</em>, 2022
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li></ol>
+
+  <h2 class="year">2021</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="Heglund2020" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Social sensing: towards social media as a sensor for resilience in power systems and other critical infrastructures</div>
+          <!-- Author -->
+          <div class="author"><!-- Heglund, Jacob,&nbsp; -->
+                    Jacob Heglund,<!-- Hopkinson, Kenneth M.,&nbsp; -->
+                    Kenneth M. Hopkinson,<!-- and <em>Tran, Huy T.</em> -->
+                  and <em>Huy T. Tran</em>
+                
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Sustainable and Resilient Infrastructure</em>, 2021
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links"><a href="https://doi.org/10.1080/23789689.2020.1719728" target="_blank" class="btn btn-sm z-depth-0" role="button">DOI</a>
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li></ol>
+
+  <h2 class="year">2020</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="Thompson2020" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Operational Perspectives into the Resilience of the US Air Transportation Network Against Intelligent Attacks</div>
+          <!-- Author -->
+          <div class="author"><!-- Thompson, Karl H,&nbsp; -->
+                    Karl H Thompson,<!-- and <em>Tran, Huy T</em> -->
+                  and <em>Huy T Tran</em>
+                
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>IEEE Transactions on Intelligent Transportation Systems</em>, 2020
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links"><a href="https://doi.org/10.1109/TITS.2019.2909177" target="_blank" class="btn btn-sm z-depth-0" role="button">DOI</a>
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="Wong2020" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Data-driven Analysis of Resilience in Airline Networks</div>
+          <!-- Author -->
+          <div class="author"><!-- Wong, Allen,&nbsp; -->
+                    Allen Wong,<!-- Tan, Sijian,&nbsp; -->
+                    Sijian Tan,<!-- Chandramouleeswaran, Keshav Ram,&nbsp; -->
+                    Keshav Ram Chandramouleeswaran,<!-- and <em>Tran, Huy T</em> -->
+                  and <em>Huy T Tran</em>
+                
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Transportation Research Part E: Logistics and Transportation Review</em>, 2020
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links"><a href="https://doi.org/10.1016/j.tre.2020.102068" target="_blank" class="btn btn-sm z-depth-0" role="button">DOI</a>
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="Heglund2020a" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Railway Delay Prediction with Spatial-Temporal Graph Convolutional Networks</div>
+          <!-- Author -->
+          <div class="author"><!-- Heglund, Jacob S W,&nbsp; -->
+                    Jacob S W Heglund,<!-- Taleongpong, Panukorn,&nbsp; -->
+                    Panukorn Taleongpong,<!-- Hu, Simon,&nbsp; -->
+                    Simon Hu,<!-- and <em>Tran, Huy T</em> -->
+                  and <em>Huy T Tran</em>
+                
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In 2020 IEEE Intelligent Transportation Systems Conference</em>, 2020
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links"><a href="https://doi.org/10.1109/ITSC45102.2020.9294742" target="_blank" class="btn btn-sm z-depth-0" role="button">DOI</a>
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="Stralen2020" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Evaluating Adaptation Performance of Hierarchical Deep Reinforcement Learning</div>
+          <!-- Author -->
+          <div class="author"><!-- Stralen, Neale Van,&nbsp; -->
+                    Neale Van Stralen,<!-- Kim, Seung Hyun,&nbsp; -->
+                    Seung Hyun Kim,
+                  <!-- <em>Tran, Huy</em>,&nbsp; -->
+                  <em>Huy Tran</em>,<!-- and Chowdhary, Girish -->
+                    and Girish Chowdhary
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In 2020 IEEE International Conference on Robotics and Automation (ICRA)</em>, 2020
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links"><a href="https://doi.org/10.1109/ICRA40945.2020.9197052" target="_blank" class="btn btn-sm z-depth-0" role="button">DOI</a>
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li></ol>
+
+  <h2 class="year">2019</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="Napier2019" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">An Artificial Neural Network Approach to Generating High-Resolution Designs from Low-Resolution Input in Topology Optimization</div>
+          <!-- Author -->
+          <div class="author"><!-- Napier, Nicholas A.,&nbsp; -->
+                    Nicholas A. Napier,<!-- Sriraman, Sai-Aksharah,&nbsp; -->
+                    Sai-Aksharah Sriraman,
+                  <!-- <em>Tran, Huy T.</em>,&nbsp; -->
+                  <em>Huy T. Tran</em>,<!-- and James, Kai A. -->
+                    and Kai A. James
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Journal of Mechanical Design</em>, 2019
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links"><a href="https://doi.org/10.1115/1.4044332" target="_blank" class="btn btn-sm z-depth-0" role="button">DOI</a>
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="Tran2019" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Parametric Design of Resilient Complex Networked Systems</div>
+          <!-- Author -->
+          <div class="author">
+                  <!-- <em>Tran, Huy T</em>,&nbsp; -->
+                  <em>Huy T Tran</em>,<!-- Domerc, Jean Charles,&nbsp; -->
+                    Jean Charles Domerc,<!-- and Mavris, Dimitri N -->
+                    and Dimitri N Mavris
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>IEEE Systems Journal</em>, 2019
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links"><a href="https://doi.org/10.1109/JSYST.2018.2825248" target="_blank" class="btn btn-sm z-depth-0" role="button">DOI</a>
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li></ol>
+
+  <h2 class="year">2018</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="Thompson2018" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Application of a Defender-Attacker-Defender Model to the U.S. Air Transportation Network</div>
+          <!-- Author -->
+          <div class="author"><!-- Thompson, Karl H,&nbsp; -->
+                    Karl H Thompson,<!-- and <em>Tran, Huy T</em> -->
+                  and <em>Huy T Tran</em>
+                
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In 2018 IEEE International Symposium on Technologies for Homeland Security (HST)</em>, 2018
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links"><a href="https://doi.org/10.1109/THS.2018.8574199" target="_blank" class="btn btn-sm z-depth-0" role="button">DOI</a>
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="Chandramouleeswaran2018a" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Machine Learning Prediction of Airport Delays in the US Air Transportation Network</div>
+          <!-- Author -->
+          <div class="author"><!-- Chandramouleeswaran, Keshav Ram,&nbsp; -->
+                    Keshav Ram Chandramouleeswaran,<!-- and <em>Tran, Huy T</em> -->
+                  and <em>Huy T Tran</em>
+                
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In 18th AIAA Aviation Technology, Integration, and Operations Conference</em>, 2018
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links"><a href="https://doi.org/10.2514/6.2018-3672" target="_blank" class="btn btn-sm z-depth-0" role="button">DOI</a>
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="Chandramouleeswaran2018" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Data-driven Resilience Quantification of the US Airline Network</div>
+          <!-- Author -->
+          <div class="author"><!-- Chandramouleeswaran, Keshav Ram,&nbsp; -->
+                    Keshav Ram Chandramouleeswaran,<!-- and <em>Tran, Huy T</em> -->
+                  and <em>Huy T Tran</em>
+                
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In 2018 Annual IEEE International Systems Conference (SysCon)</em>, 2018
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links"><a href="https://doi.org/10.1109/SYSCON.2018.8369602" target="_blank" class="btn btn-sm z-depth-0" role="button">DOI</a>
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="Antul2018" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Toward Scaling Model-Based Engineering for Systems of Systems</div>
+          <!-- Author -->
+          <div class="author"><!-- Antul, Laura,&nbsp; -->
+                    Laura Antul,<!-- Ricks, Sean,&nbsp; -->
+                    Sean Ricks,<!-- Cho, Lance,&nbsp; -->
+                    Lance Cho,<!-- Cotter, Matt,&nbsp; -->
+                    Matt Cotter,<!-- Jacobs, Ryan B,&nbsp; -->
+                    Ryan B Jacobs,<!-- Markina-Khusid, Aleksandra,&nbsp; -->
+                    Aleksandra Markina-Khusid,<!-- Kamenetsky, Janna,&nbsp; -->
+                    Janna Kamenetsky,<!-- Dahmann, Judith,&nbsp; -->
+                    Judith Dahmann,<!-- and <em>Tran, Huy T</em> -->
+                  and <em>Huy T Tran</em>
+                
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In 2018 IEEE Aerospace Conference Proceedings</em>, 2018
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links"><a href="https://doi.org/10.1109/AERO.2018.8396427" target="_blank" class="btn btn-sm z-depth-0" role="button">DOI</a>
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li></ol>
+
+  <h2 class="year">2017</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="Tran2017" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">A framework for the quantitative assessment of performance-based system resilience</div>
+          <!-- Author -->
+          <div class="author">
+                  <!-- <em>Tran, Huy T</em>,&nbsp; -->
+                  <em>Huy T Tran</em>,<!-- Balchanos, Michael,&nbsp; -->
+                    Michael Balchanos,<!-- Domercant, Jean Charles,&nbsp; -->
+                    Jean Charles Domercant,<!-- and Mavris, Dimitri N -->
+                    and Dimitri N Mavris
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>Reliability Engineering and System Safety</em>, 2017
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links"><a href="https://doi.org/10.1016/j.ress.2016.10.014" target="_blank" class="btn btn-sm z-depth-0" role="button">DOI</a>
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="Tran2017a" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Designing Resilient System-of-Systems Networks</div>
+          <!-- Author -->
+          <div class="author">
+                  <!-- <em>Tran, Huy T</em>,&nbsp; -->
+                  <em>Huy T Tran</em>,<!-- Domercant, Jean Charles,&nbsp; -->
+                    Jean Charles Domercant,<!-- and Mavris, Dimitri N -->
+                    and Dimitri N Mavris
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In 2017 11th Annual IEEE International Systems Conference (SysCon)</em>, 2017
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links"><a href="https://doi.org/10.1109/SYSCON.2017.7934813" target="_blank" class="btn btn-sm z-depth-0" role="button">DOI</a>
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li></ol>
+
+  <h2 class="year">2016</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="Tran2016" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">A Network-based Cost Comparison of Resilient and Robust System-of-Systems</div>
+          <!-- Author -->
+          <div class="author">
+                  <!-- <em>Tran, Huy T.</em>,&nbsp; -->
+                  <em>Huy T. Tran</em>,<!-- Domerçant, Jean Charles,&nbsp; -->
+                    Jean Charles Domerçant,<!-- and Mavris, Dimitri N. -->
+                    and Dimitri N. Mavris
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In Procedia Computer Science</em>, 2016
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links"><a href="https://doi.org/10.1016/j.procs.2016.09.302" target="_blank" class="btn btn-sm z-depth-0" role="button">DOI</a>
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li></ol>
+
+  <h2 class="year">2015</h2>
+  <ol class="bibliography"><li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="Tran2015" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">A System-of-Systems Approach for Assessing the Resilience of Reconfigurable Command and Control Networks</div>
+          <!-- Author -->
+          <div class="author">
+                  <!-- <em>Tran, Huy T</em>,&nbsp; -->
+                  <em>Huy T Tran</em>,<!-- Domercant, Jean Charles,&nbsp; -->
+                    Jean Charles Domercant,<!-- and Mavris, Dimitri N -->
+                    and Dimitri N Mavris
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>In AIAA Infotech @ Aerospace</em>, 2015
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links"><a href="https://doi.org/10.2514/6.2015-0640" target="_blank" class="btn btn-sm z-depth-0" role="button">DOI</a>
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li>
+<li><!-- _layouts/bib.html -->
+      <div class="row">
+        <!-- <div class="col-sm-2 abbr"></div> -->
+
+        <!-- Entry bib key -->
+        <div id="Tran2015a" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">Evaluating the agility of adaptive command and control networks from a cyber complex adaptive systems perspective</div>
+          <!-- Author -->
+          <div class="author"><!-- Tran, H. T.,&nbsp; -->
+                    H. T. Tran,<!-- Domercant, J. C.,&nbsp; -->
+                    J. C. Domercant,<!-- and Mavris, D. N. -->
+                    and D. N. Mavris
+          </div>
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            <em>The Journal of Defense Modeling and Simulation: Applications, Methodology, Technology</em>, 2015
+          </div>
+        
+          <!-- Links/Buttons -->
+          <div class="links"><a href="https://doi.org/10.1177/1548512915592517" target="_blank" class="btn btn-sm z-depth-0" role="button">DOI</a>
+          <!-- -->
+          </div>
+
+          <!-- -->
+
+          <!--  -->
+        </div>
+      </div></li></ol>
+</div>
+:ET

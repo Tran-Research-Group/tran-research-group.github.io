@@ -1,0 +1,204 @@
+I"�
+<div class="feature__wrapper">
+
+  
+    <div class="feature__item--center">
+      <div class="archive__item">
+        
+
+        <div class="archive__item-body">
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Welcome! Our goal is to advance research on autonomous systems with a focus on autonomous agents that interact with each other and humans. We primarily work at the intersection of artificial intelligence, machine learning, multi-agent systems, and controls, though we often draw inspiration from other fields, like neuroscience, as well.</p>
+
+            </div>
+          
+
+          
+        </div>
+      </div>
+    </div>
+  
+    <div class="feature__item--center">
+      <div class="archive__item">
+        
+
+        <div class="archive__item-body">
+          
+
+          
+            <div class="archive__item-excerpt">
+              <p>Check out our ongoing <a href="/research/">research</a> to learn more!</p>
+
+            </div>
+          
+
+          
+        </div>
+      </div>
+    </div>
+  
+
+</div>
+
+<!-- # Highlighted projects -->
+
+<h1 id="latest-news">Latest news</h1>
+
+<!-- <div class="feature__wrapper">
+  
+     
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/news/aamas-snac/" rel="permalink">Our work on hierarchical RL was accepted to ALA Workshop 2022!
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Our paper “Feature Specialization and Clustering Improves Hierarchical Subtask Learning” was accepted for presentation at the Adaptive Learning Agents (ALA) ...</p>
+  </article>
+</div>
+
+  
+     
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/news/aamas-dissc/" rel="permalink">Our work on SFs for MARL was accepted to AAMAS 2022!
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Our paper “Disentangling Successor Features for Coordination in Multi-agent Reinforcement Learning” was accepted for publication as a full paper and oral pre...</p>
+  </article>
+</div>
+
+  
+     
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/news/ARL/" rel="permalink">We are awarded funding from the ARL A2I2 program!
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Our project titled “Robust and Adaptive Autonomy for Multi-agent Maneuvers (RAAMM)” is selected for funding by the ARL A2I2 program! AI/ML systems for Army m...</p>
+  </article>
+</div>
+
+  
+</div> -->
+
+<div class="grid__wrapper">
+  
+    
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/news/aamas-snac/" rel="permalink">Our work on hierarchical RL was accepted to ALA Workshop 2022!
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Our paper “Feature Specialization and Clustering Improves Hierarchical Subtask Learning” was accepted for presentation at the Adaptive Learning Agents (ALA) ...</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/news/aamas-dissc/" rel="permalink">Our work on SFs for MARL was accepted to AAMAS 2022!
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Our paper “Disentangling Successor Features for Coordination in Multi-agent Reinforcement Learning” was accepted for publication as a full paper and oral pre...</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/news/ARL/" rel="permalink">We are awarded funding from the ARL A2I2 program!
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">Our project titled “Robust and Adaptive Autonomy for Multi-agent Maneuvers (RAAMM)” is selected for funding by the ARL A2I2 program! AI/ML systems for Army m...</p>
+  </article>
+</div>
+
+  
+    
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/news/alert/" rel="permalink">We are awarded funding as a project PI on the ONR ALERT program for undergraduate research!
+</a>
+      
+    </h2>
+    
+
+
+    <p class="archive__item-excerpt" itemprop="description">We are excited to be part of the UIUC team (as a project PI) awarded funding from ONR for the Accelerated Learning and Engineering Research Training (ALERT) ...</p>
+  </article>
+</div>
+
+  
+</div>
+:ET
