@@ -85,45 +85,105 @@ figcaption-team {
   padding-left: 0.75em;
   margin-left: 1em;
   margin-bottom: 0.5em;
+  
   a {
     -webkit-transition: $global-transition;
     transition: $global-transition;
-
-    &:hover {
-      color: $link-color-hover;
-    }
-  }
-}
-team-name {
-  font-family: $header-font-family;
-  font-size: $h-size-1;
-  color: $text-color;
-  margin-bottom: 5em;
-  border-spacing: 5em;
-}
-team-info {
-  font-family: $header-font-family;
-  font-size:  $doc-font-size;
-  color: $muted-text-color;
-  margin-top: 5em;
-  padding-bottom: 5em;
-} 
-span.team-logo {
-  display: inline-block;
-  font-size:  $doc-font-size;
-  color: $muted-text-color;
-  padding-right: 10px;
-  i {
-    font-size: $doc-font-size;
-  }
-  a {
-    color: inherit;
+    color: $muted-text-color;
     text-decoration: none;
-    // text-transform: uppercase;
     &:hover {
       text-decoration: underline;
     }
   }
+
+  span {
+    margin-bottom: 0.5em;
+    font-family: $global-font-family;
+    font-size:  $doc-font-size;
+    color: $text-color;
+
+    &.name {
+      display: block;
+      font-family: $header-font-family;
+      font-size: $h-size-2;
+    }
+
+    &.info {
+      display: block;
+      color: $muted-text-color;
+      a {
+        -webkit-transition: inherit;
+        transition: inherit;
+        color: inherit;
+        text-decoration: inherit;
+        &:hover {
+          text-decoration: inherit;
+        }
+      }
+    }
+
+    &.logo {
+      display: inline-block;
+      color: $muted-text-color;
+      padding-right: 10px;
+      i {
+        font-size: $doc-font-size;
+      }
+      a {
+        -webkit-transition: inherit;
+        transition: inherit;
+        color: inherit;
+        text-decoration: inherit;
+        &:hover {
+          text-decoration: inherit;
+        }
+      }
+    }
+  }
+
+  // span {
+  //   margin-bottom: 5em;
+  //   border-spacing: 5em;
+
+  //   &.name {
+  //     font-family: $header-font-family;
+  //     font-size: $h-size-2;
+  //     color: $text-color;
+  //   }
+
+  //   &.info {
+  //     font-size:  $doc-font-size;
+  //     color: $muted-text-color;
+  //     a {
+  //       -webkit-transition: inherit;
+  //       transition: inherit;
+  //       color: inherit;
+  //       text-decoration: inherit;
+  //       &:hover {
+  //         text-decoration: inherit;
+  //       }
+  //     }
+  //   }
+
+  //   &.logo {
+  //     display: inline-block;
+  //     font-size:  $doc-font-size;
+  //     color: $muted-text-color;
+  //     padding-right: 10px;
+  //     i {
+  //       font-size: $doc-font-size;
+  //     }
+  //     a {
+  //       -webkit-transition: inherit;
+  //       transition: inherit;
+  //       color: inherit;
+  //       text-decoration: inherit;
+  //       &:hover {
+  //         text-decoration: inherit;
+  //       }
+  //     }
+  //   }
+  // }
 }
 
 $figure-width: 500px;
