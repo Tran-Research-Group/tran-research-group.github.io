@@ -7,7 +7,7 @@ collection: research
 # entries_layout: grid
 ---
 
-Here is a list of our ongoing projects. Past projects can be found through our [publications](/publications/) or funding listed on Huy's CV.
+Here are our ongoing projects. Past projects can be found in our [publications](/publications/) or Huy's [CV]({{ site.url }}{{ site.baseurl }}/assets/pdfs/huy-cv.pdf).
 
 We gratefully acknowledge our funding sources.
 
