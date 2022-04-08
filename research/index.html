@@ -144,7 +144,7 @@
   
 
 
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="">
     
     
@@ -153,15 +153,17 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">
-</h1>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="/research/" class="u-url" itemprop="url">
+</a>
+          </h1>
           
 
 
         </header>
       
 
-      <section class="page__content" itemprop="text">
+      <section class="page__content e-content" itemprop="text">
         
         <p>Here are our ongoing projects. Past projects can be found in our <a href="/publications/">publications</a> or Huy’s <a href="/assets/pdfs/huy-cv.pdf">CV</a>.</p>
 
@@ -347,7 +349,6 @@
 
         
 
-
       </footer>
 
       
@@ -361,12 +362,11 @@
   
   
 </div>
-
     </div>
 
     
       <div class="search-content">
-        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
     <label class="sr-only" for="search">
       Enter your search term...
     </label>
