@@ -140,51 +140,7 @@ figcaption-team {
       }
     }
   }
-
-  // span {
-  //   margin-bottom: 5em;
-  //   border-spacing: 5em;
-
-  //   &.name {
-  //     font-family: $header-font-family;
-  //     font-size: $h-size-2;
-  //     color: $text-color;
-  //   }
-
-  //   &.info {
-  //     font-size:  $doc-font-size;
-  //     color: $muted-text-color;
-  //     a {
-  //       -webkit-transition: inherit;
-  //       transition: inherit;
-  //       color: inherit;
-  //       text-decoration: inherit;
-  //       &:hover {
-  //         text-decoration: inherit;
-  //       }
-  //     }
-  //   }
-
-  //   &.logo {
-  //     display: inline-block;
-  //     font-size:  $doc-font-size;
-  //     color: $muted-text-color;
-  //     padding-right: 10px;
-  //     i {
-  //       font-size: $doc-font-size;
-  //     }
-  //     a {
-  //       -webkit-transition: inherit;
-  //       transition: inherit;
-  //       color: inherit;
-  //       text-decoration: inherit;
-  //       &:hover {
-  //         text-decoration: inherit;
-  //       }
-  //     }
-  //   }
-  // }
-}
+} 
 
 $figure-width: 500px;
 figure-full-caption {
@@ -291,8 +247,7 @@ figure-full-caption {
 }
 
 /* Buttons */
-.button_general
-{
+.button_general {
 	background-color: $code-background-color;
   border: 1px solid $border-color;
   color: $link-color;
