@@ -9,8 +9,19 @@ header:
 #     # image_alt: "logo"
 #     text: "Sidebar text"
 tags:
-  - tag1
-  - tag2
+  - artificial intelligence
+  - controls
+  - data science
+  - formal methods
+  - human-machine teaming
+  - intelligent transportation systems
+  - machine learning
+  - multi-agent systems
+  - network theory
+  - reinforcement learning
+  - resilient systems
+  - robotics
+  - systems engineering
 ---
 
 We work on [short summary]...

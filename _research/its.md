@@ -4,8 +4,8 @@ excerpt: "We work on algorithms for intelligent transportation systems."
 header:
     teaser: /assets/images/its.jpeg
 tags:
-  - graph neural networks
-  - hierarchical RL
+  - intelligent transportation systems
+  - reinforcement learning
 ---
 
 We work on artificial intelligence and machine learning methods to improve autonomy and traffic management in intelligent transportation systems (ITS).

@@ -4,7 +4,7 @@ excerpt: "We work on learning and control algorithms for autonomous flight vehic
 header:
     teaser: /assets/images/lunar-lander.jpeg
 tags:
-  - meta-learning
+  - controls
   - reinforcement learning
 ---
 

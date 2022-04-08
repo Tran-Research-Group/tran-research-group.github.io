@@ -4,8 +4,8 @@ excerpt: "We work on hierarchical learning for autonomous agents."
 header:
     teaser: /assets/images/hrl.png
 tags:
-  - hierarchical RL
-  - successor features
+  - artificial intelligence
+  - reinforcement learning
 ---
 
 We work on hierarchical reinforcement learning (RL) methods to create autonomous agents that can efficiently solve complex tasks.

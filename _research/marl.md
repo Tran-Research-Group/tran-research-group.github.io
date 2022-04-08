@@ -4,8 +4,9 @@ excerpt: "We work on learning for coordination of multi-agent systems."
 header:
     teaser: /assets/images/dissc.png
 tags:
-  - MARL
-  - successor features
+  - artificial intelligence
+  - multi-agent systems
+  - reinforcement learning
 ---
 
 We work on multi-agent reinforcement learning (MARL) methods to create teams of autonomous agents that can work together to solve challenging tasks, such as search-and-rescue, traffic control, autonomous driving, and warehouse robotics.

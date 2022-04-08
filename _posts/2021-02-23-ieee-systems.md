@@ -4,7 +4,7 @@ date: 2021-02-23
 categories:
   - news
 tags:
-  - complex networks
+  - network theory
   - systems engineering
 ---
 
