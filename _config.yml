@@ -27,7 +27,7 @@ title: "Tran Research Group"  # the website title (if blank, full name will be u
 title_separator: ""
 subtitle: # site tagline that appears below site title in masthead
 description: "Website for the Tran Research Group"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://tran.aerospace.illinois.edu" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: huytrtran/huytrtran.github.io  # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
