@@ -6,6 +6,7 @@ header:
 tags:
   - intelligent transportation systems
   - reinforcement learning
+last_modified_at: 2022-04-12
 ---
 
 We work on artificial intelligence and machine learning methods to improve autonomy and traffic management in intelligent transportation systems (ITS).

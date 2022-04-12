@@ -8,6 +8,8 @@ tags:
   - human-machine teaming
   - multi-agent systems
   - reinforcement learning
+date: 2021-05-16
+# last_modified_at: 2016-03-09
 ---
 
 We work on learning methods to create autonomous agents that can effectively partner with different humans in collaborative tasks, like search-and-rescue, space exploration, and autonomous construction.

@@ -6,6 +6,7 @@ header:
 tags:
   - artificial intelligence
   - reinforcement learning
+last_modified_at: 2022-04-12
 ---
 
 We work on hierarchical reinforcement learning (RL) methods to create autonomous agents that can efficiently solve complex tasks.

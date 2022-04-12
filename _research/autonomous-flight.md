@@ -6,6 +6,7 @@ header:
 tags:
   - controls
   - reinforcement learning
+last_modified_at: 2022-04-12
 ---
 
 We work on artificial intelligence and controls methods to enable autonomous flight vehicles, for example for space applications and urban air mobility.

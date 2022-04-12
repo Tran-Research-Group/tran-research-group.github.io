@@ -7,6 +7,7 @@ tags:
   - artificial intelligence
   - multi-agent systems
   - reinforcement learning
+last_modified_at: 2022-04-12
 ---
 
 We work on multi-agent reinforcement learning (MARL) methods to create teams of autonomous agents that can work together to solve challenging tasks, such as search-and-rescue, traffic control, autonomous driving, and warehouse robotics.
