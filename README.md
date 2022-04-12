@@ -53,28 +53,36 @@ These steps are based on [this site](http://davidensinger.com/2013/04/deploying-
 
         $ bundle exec jekyll build
 
-1. Commit any changes to `master`
+1. Commit and push any changes to your `master` branch
+
+        $ git add .
+        $ git commit -m "change message"
+        $ git push origin
+
+1. Copy the content in `_site/` to a temporary directory (e.g., `../_site-temp/`)
 1. Delete your local `gh-pages` branch
 
         $ git branch -D gh-pages
 
-1. Checkout a new `gh-pages` branch
+1. Fetch branches from GitHub
 
-        $ git checkout -b gh-pages
+        $ git fetch
 
-1. Copy the content in `_site/` to a temporary directory (e.g., `../_site-temp/`)
-1. Delete everything in the root directory except for `.git` and `.gitignore`
-1. Copy-paste everything from the temporary directory (e.g., `../_site-temp/`) to the root directory (so `gh-pages` only contains static site files and git directories)
+1. Checkout and track the `gh-pages` branch
+
+        $ git switch gh-pages
+
+1. Delete everything in the root directory of the `gh-pages` branch except for `.git` and `.gitignore`
+1. Copy-paste everything from the temporary directory (e.g., `../_site-temp/`) to the root directory (so the `gh-pages` branch only contains static site files and git directories)
 1. Commit and push your changes to the `gh-pages` branch
 
         $ git add .
         $ git commit -m "update site files"
         $ git push origin
 
-1. Checkout and push the `master` branch (which contains the source files)
+1. Checkout the `master` branch (which contains the source files)
 
         $ git checkout master
-        $ git push origin
 
 # Acknowledgements
 
