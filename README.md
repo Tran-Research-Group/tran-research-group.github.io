@@ -1,27 +1,82 @@
-# Minimal Mistakes remote theme starter
+# Contribution guide
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+1. Clone the repo from GitHub (if needed)
+1. Checkout and pull the most recent `master` branch
+1. Create a branch for your changes
+1. Make your changes (e.g., [team updates](#updating-the-team-page), [project updates](#updating-an-existing-project-page), [news updates](#adding-a-news-item))
+1. Commit your changes to your branch
+1. Push your branch to GitHub
+1. Create a Pull Request to merge with `master` and assign it to @huytran1 for review
+1. Delete your local branch once the PR has been accepted
 
-Contains basic configuration to get you a site with:
+## Updating the team page
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+Update the team page by updating `/_pages/team.md`.
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## Updating or adding a project page
 
----
+Update a project page by updating its `/_research/project-name.md` file (including the `last_modified_at:` line in the header).
 
-## Troubleshooting
+Add a new project page by creating a new `/_research/project-name.md` file (use `/docs/templates/research-project.md` as a template).
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+## Updating or adding a news item
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+Update a news item by updating its `/_posts/news-name.md` file (including the `last_modified_at:` line in the header).
+
+Add a new news item by creating a new `/_posts/news-name.md` file (use `/docs/templates/research-project.md` as a template).
+
+# Installation
+
+1. Install [Jekyll](https://jekyllrb.com/docs/installation/) (if needed). The installation should include Ruby, Bundler, and Jekyll. I would suggest a local install.
+1. Clone the repo from GitHub
+1. Change to the project directory and install Gemfile dependencies
+
+        $ bundle install
+
+1. Test the site locally
+
+        $ bundle exec jekyll serve
+        # view the site in your web browser (http://127.0.0.1:4000/)
+
+# Publishing the site
+
+These steps are based on [this site](http://davidensinger.com/2013/04/deploying-jekyll-to-github-pages/).
+
+1. Clone the repo from GitHub (if needed)
+1. Checkout and pull the most recent `master` branch
+1. Test the site locally
+
+        $ bundle exec jekyll serve
+        # view the site in your web browser (http://127.0.0.1:4000/)
+
+1. If it looks good, build the site locally
+
+        $ bundle exec jekyll build
+
+1. Commit any changes to `master`
+1. Delete your local `gh-pages` branch
+
+        $ git branch -D gh-pages
+
+1. Checkout a new `gh-pages` branch
+
+        $ git checkout -b gh-pages
+
+1. Force the `_site/` subdirectory to be the project root
+
+        $ git filter-branch --subdirectory-filter _site/ -f
+
+1. Push the `gh-pages` branch (which contains the static site files)
+
+        $ git push origin
+
+1. Checkout and push the `master` branch (which contains the source files)
+
+        $ git checkout master
+        $ git push origin
+
+# Acknowledgements
+
+This site was created using the [starter template](https://github.com/mmistakes/mm-github-pages-starter/generate) for the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes), with some modifications to the theme (mostly found in `/_sass/minimal-mistakes.scss`). I cloned the Minimal Mistakes repo to install the theme because the Jekyll Scholar plug-in seems to have issues with the github-pages Gem, which seemed to cause problems with using the theme as a remote theme.
+
+[Jekyll Scholar](https://github.com/inukshuk/jekyll-scholar) is used to generate the publications page.
