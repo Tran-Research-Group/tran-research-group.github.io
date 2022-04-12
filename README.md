@@ -62,12 +62,13 @@ These steps are based on [this site](http://davidensinger.com/2013/04/deploying-
 
         $ git checkout -b gh-pages
 
-1. Force the `_site/` subdirectory to be the project root
+1. Copy the content in `_site/` to a temporary directory (e.g., `../_site-temp/`)
+1. Delete everything in the root directory except for `.git` and `.gitignore`
+1. Copy-paste everything from the temporary directory (e.g., `../_site-temp/`) to the root directory (so `gh-pages` only contains static site files and git directories)
+1. Commit and push your changes to the `gh-pages` branch
 
-        $ git filter-branch --subdirectory-filter _site/ -f
-
-1. Push the `gh-pages` branch (which contains the static site files)
-
+        $ git add .
+        $ git commit -m "update site files"
         $ git push origin
 
 1. Checkout and push the `master` branch (which contains the source files)
