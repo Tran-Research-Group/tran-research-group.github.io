@@ -51,7 +51,7 @@ permalink: /team/
     <figcaption-team>
         <span class="name">Rupal Nigam</span>
         <span class="info">
-            Rupal is currently a 2nd year PhD student in the Aerospace Engineering department at the University of Illinois at Urbana-Champaign, Urbana, IL and received her BSE in computer science from the University of Michigan, Ann Arbor. Her research interests include human-machine teaming and bio-inspired learning for adaptive autonomy. She is a recepient of the <a href="https://www2.ed.gov/programs/gaann/index.html">GAANN fellowship</a> (2020-22) and the <a href="https://isgc.aerospace.illinois.edu/fellowship-information/">ISGC fellowship</a> (2022-23). Overall, she aspires to help improve and sustain society through collaborative autonomy.
+            Rupal is currently a 2nd year Ph.D. student in the Aerospace Engineering department at the University of Illinois at Urbana-Champaign, Urbana, IL and received her BSE in computer science from the University of Michigan, Ann Arbor. Her research interests include human-machine teaming and bio-inspired learning for adaptive autonomy. She is a recepient of the <a href="https://www2.ed.gov/programs/gaann/index.html">GAANN fellowship</a> (2020-22) and the <a href="https://isgc.aerospace.illinois.edu/fellowship-information/">ISGC fellowship</a> (2022-23). Overall, she aspires to help improve and sustain society through collaborative autonomy.
         </span>
         <span class="logo"><i class="fas fa-fw fa-link"></i> <a href="www.rupalnigam.com">Website</a></span>
         <span class="logo"><i class="fas fa-fw fa-envelope-square"></i> <a href="mailto:rupaln2@illinois.edu">Email</a></span>
