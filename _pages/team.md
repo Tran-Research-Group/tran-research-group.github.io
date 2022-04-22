@@ -89,7 +89,7 @@ permalink: /team/
 # Undergraduate Students
 
 <figure-team>
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/matt.png">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/matt.jpeg">
     <figcaption-team>
         <span class="name">Matt Taylor</span>
         <span class="info">
