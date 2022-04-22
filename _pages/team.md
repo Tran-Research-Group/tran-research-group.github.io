@@ -77,7 +77,7 @@ permalink: /team/
 </figure-team>
 
 <figure-team>
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/miki.jpeg">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/miki.jpg">
     <figcaption-team>
         <span class="name">Miki Yuasa</span>
         <!-- <span class="info">
