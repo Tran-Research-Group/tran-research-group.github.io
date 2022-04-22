@@ -40,9 +40,9 @@ permalink: /team/
     <img src="{{ site.url }}{{ site.baseurl }}/assets/images/jacob.png">
     <figcaption-team>
         <span class="name">Jacob Heglund</span>
-        <!-- <span class="info">
-            Jacob is ...
-        </span> -->
+        <span class="info">
+            Jacob a PhD student in the Aerospace Engineering department at the University of Illinois at Urbana-Champaign, Urbana, IL. He researches algorithms for decision-making under uncertainty, specifically in cooperative, distributed team settings. One of his primary goals is to develop safe and verifiable autonomous systems to control complex, interconnected infrastructure, such as vehicle networks and power grids.
+        </span>
     </figcaption-team>
 </figure-team>
 
