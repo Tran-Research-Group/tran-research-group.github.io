@@ -81,7 +81,7 @@ permalink: /team/
     <figcaption-team>
         <span class="name">Mikihisa (Miki) Yuasa</span>
         <span class="info">
-            Miki is a graduate research assistant currently pursuing a Master's degree and a Ph.D in Aerospace Engineering at the University of Illinois at Urbana-Champaign. His chief interests lie in the development of the automated intelligent transportation systems (ITSs). His current research is about the inference of the behaviors of deep reinforcement learning agents using formal logics.
+            Miki is a graduate research assistant currently pursuing a Master's degree and a Ph.D in Aerospace Engineering at the University of Illinois at Urbana-Champaign. His chief interests lie in the development of automated intelligent transportation systems (ITS). His current research is on inference of the behaviors of deep reinforcement learning agents using formal logics.
         </span>
         <!-- remove logos if not needed -->
         <span class="logo"><i class="fas fa-fw fa-link"></i> <a href="https://miki-yuasa.github.io/">Website</a></span>
