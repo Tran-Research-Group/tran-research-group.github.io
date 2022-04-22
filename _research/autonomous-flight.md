@@ -13,4 +13,4 @@ We work on artificial intelligence and controls methods to enable autonomous fli
 
 ## Fast adaptation for autonomous landers
 
-This work explores the use of **model-based meta-RL** for designing a navigation and control system for autonomous landing of a space vehicles. The system aims to be robust to potential uncertainties or new dynamics, for example due to engine failures or unexpected atmospheric conditions.
+This work explores the use of **model-based meta-RL** for spacecraft Powered descent guidance and control (PDG) problem. The system aims to be robust to potential uncertainties or new dynamics, for example due to engine failures or unexpected atmospheric conditions.
