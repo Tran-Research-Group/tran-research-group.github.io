@@ -28,9 +28,10 @@ permalink: /team/
     <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Neale_pic.png">
     <figcaption-team>
         <span class="name">Neale Van Stralen</span>
-        <!-- <span class="info">
-            Neale is ...
-        </span> -->
+        <span class="info">
+            I am a Research Engineer in the Aerospace Engineering Department at the University of Illinois at Urbana-Champaign. I received my Masters degree from UIUC in Aerospace Engineering. My research uses Successor Features to model and decompose complex problems for Hierarchical Reinforcement Learning. I also support multi-agent, machine vision, and robotics research within the group.
+        </span>
+        <span class="logo"><i class="fab fa-fw fa-github"></i> <a href="https://github.com/vanstrn">GitHub</a></span>
     </figcaption-team>
 </figure-team>
 
