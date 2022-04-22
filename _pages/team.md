@@ -96,17 +96,20 @@ permalink: /team/
     </figcaption-team>
 </figure-team>
 
-<!-- # Undergraduate Students
+# Undergraduate Students
 
 <figure-team>
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/empty.png">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/matt.png">
     <figcaption-team>
         <span class="name">Matt Taylor</span>
         <span class="info">
-            Matt is ...
+            Matt is a junior in Aerospace Engineering with a minor in Computer Science at the University of Illinois at Urbana-Champaign. His current research interests include applied machine learning, deep learning, and human-machine teaming. Previously, he has used a brain-computer interface (BCI) to identify how performance can be improved in a human-agent collaborative environment and is currently exploring ways to turn a robot's camera view into a top-down gridworld. He hopes to pursue his M.S. in Computer Science with a focus on machine learning once he graduates.
         </span>
+        <span class="logo"><i class="fas fa-fw fa-link"></i> <a href="https://www.linkedin.com/in/matthtaylor/">Website</a></span>
+        <span class="logo"><i class="fas fa-fw fa-envelope-square"></i> <a href="mailto:mht3@illinois.edu">Email</a></span>
+        <span class="logo"><i class="fab fa-fw fa-github"></i> <a href="https://github.com/mht3">GitHub</a></span>
     </figcaption-team>
-</figure-team> -->
+</figure-team>
 
 <figure-full-caption>
 	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2021-holiday.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2021-holiday.jpg"></a>
