@@ -79,10 +79,16 @@ permalink: /team/
 <figure-team>
     <img src="{{ site.url }}{{ site.baseurl }}/assets/images/miki.jpg">
     <figcaption-team>
-        <span class="name">Miki Yuasa</span>
-        <!-- <span class="info">
-            Miki is ...
-        </span> -->
+        <span class="name">Mikihisa (Miki) Yuasa</span>
+        <span class="info">
+            Miki is a graduate research assistant currently pursuing a Master's degree and a Ph.D in Aerospace Engineering at the University of Illinois Urbana-Champaign. His chief interests lie in the automation of any kinds of transportation systems and intelligent transportation systems (ITS). His current research is about the inference of the behaviors of deep reinforcement learning agents using formal logics.
+        </span>
+        <!-- remove logos if not needed -->
+        <span class="logo"><i class="fas fa-fw fa-link"></i> <a href="https://miki-yuasa.github.io/">Website</a></span>
+        <span class="logo"><i class="fas fa-fw fa-envelope-square"></i> <a href="mailto:myuasa2@illinois.edu">Email</a></span>
+        <span class="logo"><i class="fa fa-graduation-cap"></i> <a href="https://scholar.google.com/citations?user=NiRKTWkAAAAJ&hl=en">Google Scholar</a></span>
+        <span class="logo"><i class="fab fa-fw fa-github"></i> <a href="https://github.com/miki-yuasa">GitHub</a></span>
+        <span class="logo"><i class="fas fa-fw fa-file-alt"></i> <a href="https://miki-yuasa.github.io/CV_Mikihisa_Yuasa.pdf">Curriculum Vitae</a></span>
     </figcaption-team>
 </figure-team>
 
