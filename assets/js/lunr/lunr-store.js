@@ -59,6 +59,12 @@ var store = [{
         "url": "/news/aamas-snac/",
         "teaser": null
       },{
+        "title": "Our work on anomaly detection was accepted to IJCNN 2022!",
+        "excerpt":"Our paper “D-AnoGAN: Anomaly Detection in Disconnected Data Manifolds with Generative Adversarial Networks” was accepted for presentation at IJCNN 2022! We explore the problem of unsupervised anomaly detection in disconnected data manifolds. We show that a multi-generator network can be combined with a bandit to learn to cluster data into...","categories": ["news"],
+        "tags": ["machine learning"],
+        "url": "/news/ijcnn-danogan/",
+        "teaser": null
+      },{
         "title": "Assured Autonomy",
         "excerpt":"We work on artificial intelligence and formal methods to assure safety and performance from autonomous systems.   Explaining RL agents   This work leverages formal methods to infer human-interpretable explanations of data-driven autonomous agents, such as those trained using deep reinforcement learning.  ","categories": [],
         "tags": ["formal methods","reinforcement learning"],
@@ -66,7 +72,7 @@ var store = [{
         "teaser": "/assets/images/ltl.png"
       },{
         "title": "Autonomous Flight",
-        "excerpt":"We work on artificial intelligence and controls methods to enable autonomous flight vehicles, for example for space applications and urban air mobility. Fast adaptation for autonomous landers This work explores the use of model-based meta-RL for designing a navigation and control system for autonomous landing of a space vehicles. The...","categories": [],
+        "excerpt":"We work on artificial intelligence and controls methods to enable autonomous flight vehicles, for example for space applications and urban air mobility. Fast adaptation for autonomous landers This work explores the use of model-based meta-RL for the spacecraft powered descent guidance and control (PDG) problem. The system aims to be...","categories": [],
         "tags": ["controls","reinforcement learning"],
         "url": "/research/autonomous-flight/",
         "teaser": "/assets/images/lunar-lander.jpeg"
