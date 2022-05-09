@@ -14,3 +14,11 @@ We work on artificial intelligence and formal methods to assure safety and perfo
 ## Explaining RL agents
 
 This work leverages **formal methods** to infer human-interpretable explanations of data-driven autonomous agents, such as those trained using deep reinforcement learning.
+
+## Anomaly detection
+
+This work explores the problem of anomaly detection in disconnected data manifolds (i.e., multi-class anomaly detection) using a new combination of **multi-generator generative adversarial networks (GANs)** that leverages a learned bandit for clustering in the latent space. See our IJCNN 2022 paper presenting our approach, named Disconnected Anomaly GAN (D-AnoGAN), for more details.
+
+<!-- <div class="row">
+    <a href="#" class="button_general">DOI</a>
+</div> -->
