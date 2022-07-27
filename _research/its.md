@@ -35,7 +35,7 @@ This work builds upon our earlier work using [STGNNs for railway networks](#pred
 This work leverages **spatio-temporal graph neural networks (STGNNs)** to predict delays in railway networks. We find that STGNNs improve predication accuracy relative to linear and vanilla multi-layer perceptron models. See our ITSC paper presenting our results for more details.
 
 <div class="row">
-    <a href="https://doi.org/10.1109/ITSC45102.2020.9294742" class="button_general">DOI</a>
+    <a href="https://doi.org/10.1109/ITSC45102.2020.9294742" class="button_general">PDF</a>
     <a href="https://github.com/Tran-Research-Group/raildelays-public" class="button_general">GitHub</a>
     <a href="https://youtu.be/p5LO97n3llg" class="button_general">YouTube</a>
 </div>

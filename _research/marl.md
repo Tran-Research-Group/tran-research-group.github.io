@@ -7,7 +7,7 @@ tags:
   - artificial intelligence
   - multi-agent systems
   - reinforcement learning
-last_modified_at: 2022-04-12
+last_modified_at: 2022-05-13
 ---
 
 We work on multi-agent reinforcement learning (MARL) methods to create teams of autonomous agents that can work together to solve challenging tasks, such as search-and-rescue, traffic control, autonomous driving, and warehouse robotics.
@@ -21,8 +21,8 @@ We work on multi-agent reinforcement learning (MARL) methods to create teams of 
 This work leverages successor features (SFs) to **disentangle** an individual agent’s impact on the global value function from that of all other agents, thus enabling better training of decentralized agents. The video shows an example of gameplay from the Starcraft Multi-Agent Challenge (SMAC) where the red agents learned to surround the blue agents and win the game, despite being at a numbers disadvantage (27 vs. 30 agents). See our AAMAS paper presenting our approach, named **DISentangling Successor features for Coordination (DISSC)**, for more details.
 
 <div class="row">
-    <a href="https://doi.org/10.48550/arXiv.2202.07741" class="button_general">arXiv</a>
-    <!-- <a href="#" class="button_general">GitHub</a> -->
+    <a href="https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p751.pdf" class="button_general">PDF</a>
+    <a href="https://youtu.be/B-mRD1lGrfI" class="button_general">YouTube</a>
 </div>
 
 <!-- ## Learning multi-agent roles
