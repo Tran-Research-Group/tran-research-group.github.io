@@ -1,15 +1,15 @@
 ---
-title: "Hierarchical RL"
-excerpt: "We work on hierarchical learning for autonomous agents."
+title: "Reinforcement Learning"
+excerpt: "We work on reinforcement learning for autonomous agents."
 header:
     teaser: /assets/images/hrl.png
 tags:
   - artificial intelligence
   - reinforcement learning
-last_modified_at: 2022-05-09
+last_modified_at: 2022-07-27
 ---
 
-We work on hierarchical reinforcement learning (RL) methods to create autonomous agents that can efficiently solve complex tasks.
+We work on reinforcement learning (RL) methods to create autonomous agents that can efficiently solve complex tasks.
 
 ## Bioinspired discovery of hierarchical subtasks
 
@@ -34,7 +34,7 @@ Inspired by recent discoveries in neuroscience, this work explores the use of **
 This work explores the benefits of using hierarchical architectures in RL for **adaptation to new dynamics**. The video shows an example of how our approach supports fast adaptation to new enemies in a game of capture-the-flag. See our ICRA paper for more details.
 
 <div class="row">
-    <a href="https://doi.org/10.1109/ICRA40945.2020.9197052" class="button_general">PDF</a>
+    <a href="https://doi.org/10.1109/ICRA40945.2020.9197052" class="button_general">DOI</a>
     <!-- <a href="https://github.com/raide-project/ctf_public" class="button_general">GitHub</a> -->
     <a href="https://youtu.be/BijWGu9xIpU" class="button_general">YouTube (short)</a>
     <a href="https://youtu.be/xzJLUpFknbQ" class="button_general">YouTube (long)</a>
