@@ -54,7 +54,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Our work on hierarchical RL was accepted to ALA Workshop 2022!",
-        "excerpt":"Our paper “Feature Specialization and Clustering Improves Hierarchical Subtask Learning” was accepted for presentation at the Adaptive Learning Agents (ALA) Workshop 2022 (AAMAS)! We show that feature specialization and clustering improve hierarchical reinforcement learning (RL) in various spatial planning tasks, through our Specialized Neurons and Clustering (SNAC) method.  ","categories": ["news"],
+        "excerpt":"Our paper “Feature Specialization and Clustering Improves Hierarchical Subtask Learning” was accepted for presentation at the Adaptive Learning Agents (ALA) Workshop 2022 (AAMAS)! We show that feature specialization and clustering improve hierarchical reinforcement learning (RL) in various spatial planning tasks, through our Specialized Neurons and Clustering (SNAC) method. Check out...","categories": ["news"],
         "tags": ["artificial intelligence","multi-agent systems","reinforcement learning"],
         "url": "/news/aamas-snac/",
         "teaser": null
@@ -65,23 +65,11 @@ var store = [{
         "url": "/news/ijcnn-danogan/",
         "teaser": null
       },{
-        "title": "Assured Autonomy",
-        "excerpt":"We work on artificial intelligence and formal methods to assure safety and performance from autonomous systems.   Explaining RL agents   This work leverages formal methods to infer human-interpretable explanations of data-driven autonomous agents, such as those trained using deep reinforcement learning.  ","categories": [],
-        "tags": ["formal methods","reinforcement learning"],
-        "url": "/research/assured-autonomy/",
-        "teaser": "/assets/images/ltl.png"
-      },{
-        "title": "Autonomous Flight",
-        "excerpt":"We work on artificial intelligence and controls methods to enable autonomous flight vehicles, for example for space applications and urban air mobility. Fast adaptation for autonomous landers This work explores the use of model-based meta-RL for the spacecraft powered descent guidance and control (PDG) problem. The system aims to be...","categories": [],
-        "tags": ["controls","reinforcement learning"],
-        "url": "/research/autonomous-flight/",
-        "teaser": "/assets/images/lunar-lander.jpeg"
-      },{
-        "title": "Hierarchical RL",
-        "excerpt":"We work on hierarchical reinforcement learning (RL) methods to create autonomous agents that can efficiently solve complex tasks. Bioinspired discovery of hierarchical subtasks Value maps for two learned sub-policies. The object-based option is learned using features specialized to focus on dynamic objects - it appears to have the blue agent...","categories": [],
-        "tags": ["artificial intelligence","reinforcement learning"],
-        "url": "/research/hrl/",
-        "teaser": "/assets/images/hrl.png"
+        "title": "Our work on robot navigation was accepted to RA-L!",
+        "excerpt":"Our paper “WayFAST: Navigation with Predictive Traversability in the Field” was accepted for publication in IEEE RA-L! We present a new method for robot navigation in the field using traversability estimations.  ","categories": ["news"],
+        "tags": ["robotics"],
+        "url": "/news/ral-wayfast/",
+        "teaser": null
       },{
         "title": "Human-machine Teaming",
         "excerpt":"We work on learning methods to create autonomous agents that can effectively partner with different humans in collaborative tasks, like search-and-rescue, space exploration, and autonomous construction. Learning adaptable human models with successor features This work explores the use of successor features to learn decision-making models of humans that can be...","categories": [],
@@ -100,4 +88,16 @@ var store = [{
         "tags": ["artificial intelligence","multi-agent systems","reinforcement learning"],
         "url": "/research/marl/",
         "teaser": "/assets/images/dissc.png"
+      },{
+        "title": "Reinforcement Learning",
+        "excerpt":"We work on reinforcement learning (RL) methods to create autonomous agents that can efficiently solve complex tasks. Bioinspired discovery of hierarchical subtasks Value maps for two learned sub-policies. The object-based option is learned using features specialized to focus on dynamic objects - it appears to have the blue agent prevent...","categories": [],
+        "tags": ["artificial intelligence","reinforcement learning"],
+        "url": "/research/reinforcement-learning/",
+        "teaser": "/assets/images/hrl.png"
+      },{
+        "title": "Robotics and Autonomy",
+        "excerpt":"We work on artificial intelligence and controls methods for robots and other autonomous systems (e.g., for space and urban air mobility). Fast adaptation for autonomous landers This work explores the use of model-based meta-RL for the spacecraft powered descent guidance and control (PDG) problem. The system aims to be robust...","categories": [],
+        "tags": ["controls","formal methods","reinforcement learning"],
+        "url": "/research/robotics/",
+        "teaser": "/assets/images/lunar-lander.jpeg"
       }]

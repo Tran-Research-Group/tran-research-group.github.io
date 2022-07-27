@@ -83,6 +83,8 @@ These steps are based on [this site](http://davidensinger.com/2013/04/deploying-
 1. Checkout the `master` branch (which contains the source files)
 
         $ git checkout master
+        
+1. Update the custom domain associated with the site (i.e., "tran.aerospace.illinois.edu") by going to Settings > Pages > Custom domain.
 
 # Acknowledgements
 
