@@ -13,7 +13,7 @@ header:
 #   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Advancing autonomy through interdisciplinary research."
 intro: 
-  - excerpt: "Welcome! Our goal is to advance research on autonomous systems with a focus on autonomous agents that interact with each other and humans. We primarily work at the intersection of artificial intelligence, machine learning, multi-agent systems, and controls, though we often draw inspiration from other fields, like neuroscience, as well."
+  - excerpt: "Welcome! Our goal is to advance research on autonomous and intelligent systems with a focus on autonomous agents that interact with each other and humans. We primarily work at the intersection of artificial intelligence, machine learning, multi-agent systems, and controls, though we draw inspiration from other fields, like neuroscience, as well."
   - excerpt: "Check out our [research](/research/) to learn more!"
 ---
 
@@ -34,3 +34,7 @@ intro:
     {% include archive-single.html type="grid" %}
   {% endfor %}
 </div>
+
+# Press
+
+Our work has been highlighted at [UNITE.AI](https://www.unite.ai/ai-helps-train-teams-of-collaborative-robots-and-drones/).

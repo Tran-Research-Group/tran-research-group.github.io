@@ -23,6 +23,7 @@ This work leverages successor features (SFs) to **disentangle** an individual ag
 <div class="row">
     <a href="https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p751.pdf" class="button_general">PDF</a>
     <a href="https://youtu.be/B-mRD1lGrfI" class="button_general">YouTube</a>
+    <a href="https://www.unite.ai/ai-helps-train-teams-of-collaborative-robots-and-drones/" class="button_general">Press</a>
 </div>
 
 <!-- ## Learning multi-agent roles
