@@ -61,26 +61,6 @@ permalink: /team/
 </figure-team>
 
 <figure-team>
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/kweon.jpg">
-    <figcaption-team>
-        <span class="name">Ha Kweon</span>
-        <!-- <span class="info">
-            Kweon is ...
-        </span> -->
-    </figcaption-team>
-</figure-team>
-
-<figure-team>
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/sachin.jpg">
-    <figcaption-team>
-        <span class="name">Sachin Kukke</span>
-        <!-- <span class="info">
-            Sachin is ...
-        </span> -->
-    </figcaption-team>
-</figure-team>
-
-<figure-team>
     <img src="{{ site.url }}{{ site.baseurl }}/assets/images/miki.jpg">
     <figcaption-team>
         <span class="name">Mikihisa (Miki) Yuasa</span>
@@ -93,6 +73,16 @@ permalink: /team/
         <span class="logo"><i class="fa fa-graduation-cap"></i> <a href="https://scholar.google.com/citations?user=NiRKTWkAAAAJ&hl=en">Google Scholar</a></span>
         <span class="logo"><i class="fab fa-fw fa-github"></i> <a href="https://github.com/miki-yuasa">GitHub</a></span>
         <span class="logo"><i class="fas fa-fw fa-file-alt"></i> <a href="https://miki-yuasa.github.io/CV_Mikihisa_Yuasa.pdf">Curriculum Vitae</a></span>
+    </figcaption-team>
+</figure-team>
+
+<figure-team>
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/kweon.jpg">
+    <figcaption-team>
+        <span class="name">Ha Kweon</span>
+        <!-- <span class="info">
+            Kweon is ...
+        </span> -->
     </figcaption-team>
 </figure-team>
 
