@@ -71,10 +71,16 @@ var store = [{
         "url": "/news/ral-wayfast/",
         "teaser": null
       },{
-        "title": "Human-machine Teaming",
+        "title": "Huy gave an invited workshop talk on MARL!",
+        "excerpt":"Huy gave an invited talk at the IROS 2022 Decision Making in Multi-agent Systems Workshop. The talk was titled “On Utilities for Cooperative Multi-agent RL.” A video link to the talk can be found here.  ","categories": ["news"],
+        "tags": ["artificial intelligence","multi-agent systems","reinforcement learning"],
+        "url": "/news/iros/",
+        "teaser": null
+      },{
+        "title": "Human-agent Teaming",
         "excerpt":"We work on learning methods to create autonomous agents that can effectively partner with different humans in collaborative tasks, like search-and-rescue, space exploration, and autonomous construction. Learning adaptable human models with successor features This work explores the use of successor features to learn decision-making models of humans that can be...","categories": [],
-        "tags": ["artificial intelligence","human-machine teaming","multi-agent systems","reinforcement learning"],
-        "url": "/research/hum-t/",
+        "tags": ["artificial intelligence","human-agent teaming","multi-agent systems","reinforcement learning"],
+        "url": "/research/hat/",
         "teaser": "/assets/images/hum-t.png"
       },{
         "title": "Intelligent Transportation Systems",
@@ -96,7 +102,7 @@ var store = [{
         "teaser": "/assets/images/hrl.png"
       },{
         "title": "Robotics and Autonomy",
-        "excerpt":"We work on artificial intelligence and controls methods for robots and other autonomous systems (e.g., for space and urban air mobility). Fast adaptation for autonomous landers This work explores the use of model-based meta-RL for the spacecraft powered descent guidance and control (PDG) problem. The system aims to be robust...","categories": [],
+        "excerpt":"We work on artificial intelligence and controls methods for robots and other autonomous systems (e.g., for space and urban air mobility). Explaining autonomous agents This work leverages formal methods to infer human-interpretable explanations of data-driven autonomous agents, such as those trained using deep reinforcement learning. Traversability for robot navigation in...","categories": [],
         "tags": ["controls","formal methods","reinforcement learning"],
         "url": "/research/robotics/",
         "teaser": "/assets/images/lunar-lander.jpeg"
