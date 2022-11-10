@@ -7,14 +7,14 @@ tags:
   - controls
   - formal methods
   - reinforcement learning
-last_modified_at: 2022-07-27
+last_modified_at: 2022-11-10
 ---
 
 We work on artificial intelligence and controls methods for robots and other autonomous systems (e.g., for space and urban air mobility).
 
-## Fast adaptation for autonomous landers
+<!-- ## Fast adaptation for autonomous landers
 
-This work explores the use of **model-based meta-RL** for the spacecraft powered descent guidance and control (PDG) problem. The system aims to be robust to potential uncertainties or new dynamics, for example due to engine failures or unexpected atmospheric conditions.
+This work explores the use of **model-based meta-RL** for the spacecraft powered descent guidance and control (PDG) problem. The system aims to be robust to potential uncertainties or new dynamics, for example due to engine failures or unexpected atmospheric conditions. -->
 
 ## Explaining autonomous agents
 
@@ -37,3 +37,7 @@ This work presents a new method for robot navigation in unstructured, outdoor en
 </figure-full-caption>
 
 This work explores the problem of anomaly detection in disconnected data manifolds (i.e., multi-class anomaly detection) using a new combination of **multi-generator generative adversarial networks (GANs)** that leverages a learned bandit for clustering in the latent space. See our IJCNN 2022 paper presenting our approach, named **Disconnected Anomaly GAN (D-AnoGAN)**, for more details.
+
+<div class="row">
+    <a href="https://doi.org/10.1109/IJCNN55064.2022.9892270" class="button_general">DOI</a>
+</div>

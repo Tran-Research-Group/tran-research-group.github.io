@@ -13,7 +13,7 @@ tags:
   - controls
   - data science
   - formal methods
-  - human-machine teaming
+  - human-agent teaming
   - intelligent transportation systems
   - machine learning
   - multi-agent systems
