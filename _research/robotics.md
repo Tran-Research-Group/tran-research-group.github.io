@@ -22,6 +22,11 @@ This work leverages **formal methods** to infer human-interpretable explanations
 
 ## Traversability for robot navigation in the field
 
+<figure-full-caption>
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/WayFAST2.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/WayFAST2.jpg"></a>
+	<figcaption>Our system predicts traversable paths for autonomous visual navigation in offroad terrain.</figcaption>
+</figure-full-caption>
+
 This work presents a new method for robot navigation in unstructured, outdoor environments based on self-supervised **traversability estimations**. See our RA-L paper presenting our approach, named **Waypoint Free Autonomous Systems for Traversability (WayFAST)**, for more details.
 
 <div class="row">

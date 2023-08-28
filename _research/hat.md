@@ -1,6 +1,6 @@
 ---
-title: "Human-agent Teaming"
-excerpt: "We work on creating autonomous agents for human-agent teams."
+title: "Human-robot Teaming"
+excerpt: "We work on creating autonomous robots for human-robot teams."
 header:
     teaser: /assets/images/hum-t.png
 tags:
@@ -9,11 +9,11 @@ tags:
   - multi-agent systems
   - reinforcement learning
 date: 2021-05-16
-last_modified_at: 2022-11-10
+last_modified_at: 2023-08-28
 ---
 
-We work on learning methods to create autonomous agents that can effectively partner with different humans in collaborative tasks, like search-and-rescue, space exploration, and autonomous construction.
+We work on learning methods to create autonomous robots (and more general agents) that can effectively partner with different humans in collaborative tasks, like search-and-rescue, space exploration, and autonomous construction.
 
-## Learning adaptable human models with successor features
+## Fast adaptation for ad hoc human-robot teams
 
-This work explores the use of successor features to learn decision-making models of humans that can be **quickly adapted to account for biases of new human teammates**.
+This work explores ways to quickly adapt robot decision policies **to account for preferences (or biases) of new human teammates**.

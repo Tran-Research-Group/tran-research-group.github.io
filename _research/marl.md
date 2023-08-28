@@ -12,6 +12,10 @@ last_modified_at: 2022-05-13
 
 We work on multi-agent reinforcement learning (MARL) methods to create teams of autonomous agents that can work together to solve challenging tasks, such as search-and-rescue, traffic control, autonomous driving, and warehouse robotics.
 
+## Communication-aware learning with mission constraints
+
+This work explores theory and algorithms for autonomous agents to coordinate in a way that satisfies mission requirements with limited communication capabilies.
+
 ## Improving decentralized training with successor features
 
 <video muted autoplay="autoplay" loop="loop" width="500px" controls>

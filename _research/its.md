@@ -6,14 +6,14 @@ header:
 tags:
   - intelligent transportation systems
   - reinforcement learning
-last_modified_at: 2022-04-12
+last_modified_at: 2023-08-28
 ---
 
 We work on artificial intelligence and machine learning methods to improve autonomy and traffic management in intelligent transportation systems (ITS).
 
-## MARL for traffic light control
+<!-- ## MARL for traffic light control
 
-This work explores applications of MARL to traffic light control. We are specifically exploring the integration of hierarchical RL with MARL for this problem. We use SUMO as the traffic simulator.
+This work explores applications of MARL to traffic light control. We are specifically exploring the integration of hierarchical RL with MARL for this problem. We use SUMO as the traffic simulator. -->
 
 ## Evaluating STGNNs for air transportation networks
 
