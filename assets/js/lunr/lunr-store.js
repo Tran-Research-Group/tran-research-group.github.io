@@ -71,26 +71,32 @@ var store = [{
         "url": "/news/ral-wayfast/",
         "teaser": null
       },{
-        "title": "Huy gave an invited workshop talk on MARL!",
+        "title": "Huy gave an invited workshop talk at IROS 2022!",
         "excerpt":"Huy gave an invited talk at the IROS 2022 Decision Making in Multi-agent Systems Workshop. The talk was titled “On Utilities for Cooperative Multi-agent RL.” A video link to the talk can be found here.  ","categories": ["news"],
         "tags": ["artificial intelligence","multi-agent systems","reinforcement learning"],
         "url": "/news/iros/",
         "teaser": null
       },{
-        "title": "Human-agent Teaming",
-        "excerpt":"We work on learning methods to create autonomous agents that can effectively partner with different humans in collaborative tasks, like search-and-rescue, space exploration, and autonomous construction. Learning adaptable human models with successor features This work explores the use of successor features to learn decision-making models of humans that can be...","categories": [],
+        "title": "Huy gave an invited workshop talk at RSS 2023!",
+        "excerpt":"Huy gave an invited talk at the RSS 2023 Inference and Decision Making for Autonomous Vehicles Workshop. The talk was titled “Learning for Decision Making in Cooperative Multi-agent Systems.”  ","categories": ["news"],
+        "tags": ["artificial intelligence","multi-agent systems","reinforcement learning"],
+        "url": "/news/rss/",
+        "teaser": null
+      },{
+        "title": "Human-robot Teaming",
+        "excerpt":"We work on learning methods to create autonomous robots (and more general agents) that can effectively partner with different humans in collaborative tasks, like search-and-rescue, space exploration, and autonomous construction. Fast adaptation for ad hoc human-robot teams This work explores ways to quickly adapt robot decision policies to account for...","categories": [],
         "tags": ["artificial intelligence","human-agent teaming","multi-agent systems","reinforcement learning"],
         "url": "/research/hat/",
         "teaser": "/assets/images/hum-t.png"
       },{
         "title": "Intelligent Transportation Systems",
-        "excerpt":"We work on artificial intelligence and machine learning methods to improve autonomy and traffic management in intelligent transportation systems (ITS). MARL for traffic light control This work explores applications of MARL to traffic light control. We are specifically exploring the integration of hierarchical RL with MARL for this problem. We...","categories": [],
+        "excerpt":"We work on artificial intelligence and machine learning methods to improve autonomy and traffic management in intelligent transportation systems (ITS). Evaluating STGNNs for air transportation networks Visualization of the US air transportation network studied in our work. This work builds upon our earlier work using STGNNs for railway networks by...","categories": [],
         "tags": ["intelligent transportation systems","reinforcement learning"],
         "url": "/research/its/",
         "teaser": "/assets/images/its.jpeg"
       },{
         "title": "Multi-agent RL",
-        "excerpt":"We work on multi-agent reinforcement learning (MARL) methods to create teams of autonomous agents that can work together to solve challenging tasks, such as search-and-rescue, traffic control, autonomous driving, and warehouse robotics. Improving decentralized training with successor features This work leverages successor features (SFs) to disentangle an individual agent’s impact...","categories": [],
+        "excerpt":"We work on multi-agent reinforcement learning (MARL) methods to create teams of autonomous agents that can work together to solve challenging tasks, such as search-and-rescue, traffic control, autonomous driving, and warehouse robotics. Communication-aware learning with mission constraints This work explores theory and algorithms for autonomous agents to coordinate in a...","categories": [],
         "tags": ["artificial intelligence","multi-agent systems","reinforcement learning"],
         "url": "/research/marl/",
         "teaser": "/assets/images/dissc.png"
