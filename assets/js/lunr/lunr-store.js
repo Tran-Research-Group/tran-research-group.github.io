@@ -89,6 +89,12 @@ var store = [{
         "url": "/news/iros-gsat/",
         "teaser": null
       },{
+        "title": "We are awarded funding from the NASA TTT program!",
+        "excerpt":"Our project titled “Learning from Existing Systems for Emergent Coordination in Future Air Mobility” is selected for funding by NASA’s Transformational Tools and Technologies (TTT) program! Advanced Air Mobility (AAM) missions will require a wide range of use cases, such as urban air mobility (UAM) and firefighting, where vehicles, operators,...","categories": ["news"],
+        "tags": ["artificial intelligence","multi-agent systems","reinforcement learning"],
+        "url": "/news/NASA-CAMS/",
+        "teaser": null
+      },{
         "title": "Human-robot Teaming",
         "excerpt":"We work on learning methods to create autonomous robots (and more general agents) that can effectively partner with different humans in collaborative tasks, like search-and-rescue, space exploration, and autonomous construction. Fast adaptation for ad hoc human-robot teams This work explores ways to quickly adapt robot decision policies to account for...","categories": [],
         "tags": ["artificial intelligence","human-agent teaming","multi-agent systems","reinforcement learning"],
@@ -96,7 +102,7 @@ var store = [{
         "teaser": "/assets/images/hum-t.png"
       },{
         "title": "Intelligent Transportation Systems",
-        "excerpt":"We work on artificial intelligence and machine learning methods to improve autonomy and traffic management in intelligent transportation systems (ITS). Evaluating STGNNs for air transportation networks Visualization of the US air transportation network studied in our work. This work builds upon our earlier work using STGNNs for railway networks by...","categories": [],
+        "excerpt":"We work on artificial intelligence and machine learning methods to improve autonomy and traffic management in intelligent transportation systems (ITS). Learning emergent coordination in collective autonomous air mobility systems (CAMS) This work explores reinforcement learning algorithms for encouraging emergent cooperation in autonomous air mobility vehicles, with consideration of heterogeneity (e.g.,...","categories": [],
         "tags": ["intelligent transportation systems","reinforcement learning"],
         "url": "/research/its/",
         "teaser": "/assets/images/its.jpeg"
