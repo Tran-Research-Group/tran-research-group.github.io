@@ -15,6 +15,10 @@ We work on artificial intelligence and machine learning methods to improve auton
 
 This work explores applications of MARL to traffic light control. We are specifically exploring the integration of hierarchical RL with MARL for this problem. We use SUMO as the traffic simulator. -->
 
+## Learning emergent coordination in collective autonomous air mobility systems (CAMS)
+
+This work explores reinforcement learning algorithms for encouraging emergent cooperation in autonomous air mobility vehicles, with consideration of heterogeneity (e.g., individual objectives) and the overall integrated system (e.g., vehicles and their interactiosn with operators and services).
+
 ## Evaluating STGNNs for air transportation networks
 
 <figure-full-caption>
