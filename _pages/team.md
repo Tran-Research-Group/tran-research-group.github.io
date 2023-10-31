@@ -76,6 +76,11 @@ permalink: /team/
 <!-- # Undergraduate Students -->
 
 <figure-full-caption>
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-iros.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-iros.jpg"></a>
+	<figcaption>Some group members at IROS 2023 in Detroit, MI.</figcaption>
+</figure-full-caption>
+
+<figure-full-caption>
 	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2021-holiday.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2021-holiday.jpg"></a>
 	<figcaption>2021 holiday party at Huy's house.</figcaption>
 </figure-full-caption>
