@@ -25,6 +25,10 @@ Update a news item by updating its `/_posts/news-name.md` file (including the `l
 
 Add a new news item by creating a new `/_posts/news-name.md` file (use `/docs/templates/research-project.md` as a template).
 
+## Updating the publications page
+
+Update the publications page by exporting a `papers.bib` file with the desired publications. If using Zotero, export using the native Zotero export function, not BetterBibTeX. Items with a DOI entry will show a DOI button; if the DOI entry link contains "arXiv", an arXiv button will be shown instead. Items with a URL entry will show a PDF button.
+
 # Installation
 
 1. Install [Jekyll](https://jekyllrb.com/docs/installation/) (if needed). The installation should include Ruby, Bundler, and Jekyll. I would suggest a local install.
