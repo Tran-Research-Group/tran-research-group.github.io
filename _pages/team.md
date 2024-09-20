@@ -7,7 +7,7 @@ permalink: /team/
 # Faculty
 
 <figure-team>
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/huy.jpg">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/huy.jpg">
     <figcaption-team>
         <span class="name">Huy T. Tran</span>
         <span class="info">
@@ -27,7 +27,7 @@ permalink: /team/
 # Graduate Students
 
 <figure-team>
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/jacob.jpg">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/jacob.jpg">
     <figcaption-team>
         <span class="name">Jacob Heglund</span>
         <span class="info">
@@ -37,7 +37,7 @@ permalink: /team/
 </figure-team>
 
 <figure-team>
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/rupal.jpg">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/rupal.jpg">
     <figcaption-team>
         <span class="name">Rupal Nigam</span>
         <span class="info">
@@ -50,7 +50,7 @@ permalink: /team/
 </figure-team>
 
 <figure-team>
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/miki.jpg">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/miki.jpg">
     <figcaption-team>
         <span class="name">Mikihisa (Miki) Yuasa</span>
         <span class="info">
@@ -66,7 +66,7 @@ permalink: /team/
 </figure-team>
 
 <figure-team>
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/niket.png">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/niket.png">
     <figcaption-team>
         <span class="name">Niket Parikh</span>
         <span class="info">
@@ -76,7 +76,7 @@ permalink: /team/
 </figure-team>
 
 <figure-team>
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/minjae.jpg">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/minjae.jpg">
     <figcaption-team>
         <span class="name">Minjae (MJ) Cho</span>
         <span class="info">
@@ -90,7 +90,7 @@ permalink: /team/
 </figure-team>
 
 <figure-team>
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/hamid.jpeg">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/hamid.jpeg">
     <figcaption-team>
         <span class="name">Hamid Osooli</span>
     </figcaption-team>
@@ -147,7 +147,7 @@ permalink: /team/
 # Alumni
 
 <figure-team>
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/neale.png">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/neale.png">
     <figcaption-team>
         <span class="name">Neale Van Stralen</span>
         <span class="info">
@@ -206,11 +206,11 @@ permalink: /team/
 # Pictures
 
 <figure-full-caption>
-	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2023-iros.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2023-iros.jpg"></a>
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/team/2023-iros.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/2023-iros.jpg"></a>
 	<figcaption>Some group members at IROS 2023 in Detroit, MI.</figcaption>
 </figure-full-caption>
 
 <figure-full-caption>
-	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/2021-holiday.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/2021-holiday.jpg"></a>
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/team/2021-holiday.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/2021-holiday.jpg"></a>
 	<figcaption>2021 holiday party at Huy's house.</figcaption>
 </figure-full-caption>
