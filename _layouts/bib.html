@@ -83,6 +83,8 @@
             {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
           {%- elsif entry.type == "inproceedings" -%}
             {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
+          {%- elsif entry.type == "misc" -%}
+            {%- capture entrytype -%}<em>arXiv</em> {%- endcapture -%}
           {%- endif -%}
           <!-- {%- if entry.month -%}
             {%- capture entrymonth -%}{{ ", " }}{{ entry.month | capitalize }}{%- endcapture -%}
@@ -107,7 +109,11 @@
             {%- endif %}
           {%- endif %}
           {%- if entry.url %}
-            <a href="{{ entry.url }}" target="_blank" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          {%- if entry.url contains "arxiv" %}
+              <a href="{{ entry.url }}" target="_blank" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+            {%- else -%}
+              <a href="{{ entry.url }}" target="_blank" class="btn btn-sm z-depth-0" role="button">PDF</a>
+              {%- endif %}
           {%- endif %}
           <!-- {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
