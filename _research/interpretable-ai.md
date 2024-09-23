@@ -1,5 +1,5 @@
 ---
-title: "Interpretable Artificial Intelligence Agents"
+title: "Interpretable AI Agents"
 excerpt: "Interpreting or explaining artificial intelligence-based autonomous agents."
 header:
     teaser: /assets/images/research/ltl.png

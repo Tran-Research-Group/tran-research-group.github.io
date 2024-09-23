@@ -11,6 +11,14 @@ last_modified_at: 2022-11-10
 
 We work on methods for autonomous robot navigation and perception in unstructured and uncertain environments, like outdoor areas.
 
+This work was funded in part by Army W9132T-19-C-0006, the MITRE Corporation research agreement 126392, and ONR N00014-20-1-2249.
+
+<div class="funding-logos">
+    <a href="https://www.erdc.usace.army.mil/Locations/CERL/"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/funding/cerl.webp"></a>
+    <a href="https://www.mitre.org/"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/funding/mitre.png"></a>
+    <a href="https://www.onr.navy.mil/"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/funding/onr.png"></a>
+</div>
+
 ## Traversability for robot navigation in the field
 
 <figure-full-caption>

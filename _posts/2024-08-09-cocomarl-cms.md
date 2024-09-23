@@ -1,5 +1,5 @@
 ---
-title: "Jacob presented our work on MARL at the RLC 2024 CoCoMARL Workshop!"
+title: "Jacob presented at the RLC 2024 CoCoMARL Workshop!"
 date: 2024-08-09
 categories:
   - news
