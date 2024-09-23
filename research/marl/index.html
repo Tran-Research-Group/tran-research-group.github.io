@@ -9,33 +9,33 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Multi-agent RL - Tran Research Group</title>
-<meta name="description" content="We work on learning for coordination of multi-agent systems.">
+<!-- begin _includes/seo.html --><title>Multi-agent Reinforcement Learning - Tran Research Group</title>
+<meta name="description" content="Learning coordination in multi-agent systems.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Tran Research Group">
-<meta property="og:title" content="Multi-agent RL">
+<meta property="og:title" content="Multi-agent Reinforcement Learning">
 <meta property="og:url" content="https://tran.aerospace.illinois.edu/research/marl/">
 
 
-  <meta property="og:description" content="We work on learning for coordination of multi-agent systems.">
+  <meta property="og:description" content="Learning coordination in multi-agent systems.">
 
 
 
-  <meta property="og:image" content="https://tran.aerospace.illinois.edu/assets/images/dissc.png">
+  <meta property="og:image" content="https://tran.aerospace.illinois.edu/assets/images/research/dissc.png">
 
 
 
 
 
-  <meta property="article:published_time" content="2023-11-03T15:15:59-05:00">
+  <meta property="article:published_time" content="2024-09-23T09:55:06-05:00">
 
 
 
-  <meta property="article:modified_time" content="2022-05-13T00:00:00-05:00">
+  <meta property="article:modified_time" content="2024-09-20T00:00:00-05:00">
 
 
 
@@ -151,16 +151,16 @@
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Multi-agent RL">
-    <meta itemprop="description" content="We work on learning for coordination of multi-agent systems.">
-    <meta itemprop="datePublished" content="2023-11-03T15:15:59-05:00">
-    <meta itemprop="dateModified" content="2022-05-13T00:00:00-05:00">
+    <meta itemprop="headline" content="Multi-agent Reinforcement Learning">
+    <meta itemprop="description" content="Learning coordination in multi-agent systems.">
+    <meta itemprop="datePublished" content="2024-09-23T09:55:06-05:00">
+    <meta itemprop="dateModified" content="2024-09-20T00:00:00-05:00">
 
     <div class="page__inner-wrap">
       
         <header>
           <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="https://tran.aerospace.illinois.edu/research/marl/" class="u-url" itemprop="url">Multi-agent RL
+            <a href="https://tran.aerospace.illinois.edu/research/marl/" class="u-url" itemprop="url">Multi-agent Reinforcement Learning
 </a>
           </h1>
           
@@ -171,19 +171,36 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <p>We work on multi-agent reinforcement learning (MARL) methods to create teams of autonomous agents that can work together to solve challenging tasks, such as search-and-rescue, traffic control, autonomous driving, and warehouse robotics.</p>
+        <p>We work on multi-agent reinforcement learning (MARL) algorithms for coordinating agents in cooperative tasks, such as search-and-rescue, surveillance missions, and warehouse robotics.</p>
 
-<h2 id="communication-aware-learning-with-mission-constraints">Communication-aware learning with mission constraints</h2>
+<p>This work was funded in part by ARL W911NF2020184, NASA 80NSSC23M0221, and ONR N00014-20-1-2249.</p>
 
-<p>This work explores theory and algorithms for autonomous agents to coordinate in a way that satisfies mission requirements with limited communication capabilies.</p>
+<div class="funding-logos">
+    <a href="https://www.arl.army.mil/"><img src="https://tran.aerospace.illinois.edu/assets/images/funding/arl.jpeg" /></a>
+    <a href="https://www.nasa.gov/"><img src="https://tran.aerospace.illinois.edu/assets/images/funding/nasa.jpg" /></a>
+    <a href="https://www.onr.navy.mil/"><img src="https://tran.aerospace.illinois.edu/assets/images/funding/onr.png" /></a>
+</div>
 
-<h2 id="improving-decentralized-training-with-successor-features">Improving decentralized training with successor features</h2>
+<h2 id="coordination-machines-for-minimizing-communications-in-marl">Coordination machines for minimizing communications in MARL</h2>
+
+<figure-full-caption>
+	<a href="https://tran.aerospace.illinois.edu/assets/images/research/cms.png"><img src="https://tran.aerospace.illinois.edu/assets/images/research/cms.png" /></a>
+	<figcaption>Our method optimizes policies to make decisions within a high-level probabilistic finite automaton (PFA) model and low-level decentralized partially observable Markov decision processes (Dec-POMDPs) included within the PFA.</figcaption>
+</figure-full-caption>
+
+<p>This work proposes <strong>coordination machines (CMs)</strong>, a hierarchical model for minimizing communications in MARL subject to a desired overall task success rate. Our key idea is that each subtask may require different levels of communication, and varying the level of communication allowed for each subtask can lower overall communication costs. See our <a href="https://sites.google.com/view/cocomarl-2024/home?authuser=0">CoCoMARL RLC 2024 Workshop</a> paper presenting our method for more details.</p>
+
+<div class="row">
+    <a href="https://openreview.net/forum?id=SnTvlVU7xr" class="button_general">PDF</a>
+</div>
+
+<h2 id="addressing-multi-agent-credit-assignment-with-successor-features">Addressing multi-agent credit assignment with successor features</h2>
 
 <video muted="" autoplay="autoplay" loop="loop" width="500px" controls="">
   <source src="/assets/videos/dissc.mp4" type="video/mp4" />
 </video>
 
-<p>This work leverages successor features (SFs) to <strong>disentangle</strong> an individual agent’s impact on the global value function from that of all other agents, thus enabling better training of decentralized agents. The video shows an example of gameplay from the Starcraft Multi-Agent Challenge (SMAC) where the red agents learned to surround the blue agents and win the game, despite being at a numbers disadvantage (27 vs. 30 agents). See our AAMAS paper presenting our approach, named <strong>DISentangling Successor features for Coordination (DISSC)</strong>, for more details.</p>
+<p>This work leverages successor features (SFs) to disentangle an individual agent’s impact on a shared reward from that of all other agents, thus addressing multi-agent credit assignment when training decentralized agents. The video shows an example of gameplay from the Starcraft Multi-Agent Challenge (SMAC) where the red agents learned to surround the blue agents and win the game, despite being at a numbers disadvantage (27 vs. 30 agents). See our AAMAS 2022 paper presenting our approach, named <strong>DISentangling Successor features for Coordination (DISSC)</strong>, for more details.</p>
 
 <div class="row">
     <a href="https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p751.pdf" class="button_general">PDF</a>
@@ -228,7 +245,7 @@ This work aims to **TODO**. -->
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2022-05-13">May 13, 2022</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-09-20">September 20, 2024</time></p>
 
       </footer>
 
@@ -237,7 +254,7 @@ This work aims to **TODO**. -->
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=Multi-agent+RL%20https%3A%2F%2Ftran.aerospace.illinois.edu%2Fresearch%2Fmarl%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Multi-agent+Reinforcement+Learning%20https%3A%2F%2Ftran.aerospace.illinois.edu%2Fresearch%2Fmarl%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftran.aerospace.illinois.edu%2Fresearch%2Fmarl%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
@@ -248,11 +265,11 @@ This work aims to **TODO**. -->
       
   <nav class="pagination">
     
-      <a href="/research/its/" class="pagination--pager" title="Intelligent Transportation Systems
+      <a href="/research/interpretable-ai/" class="pagination--pager" title="Interpretable AI Agents
 ">Previous</a>
     
     
-      <a href="/research/reinforcement-learning/" class="pagination--pager" title="Reinforcement Learning
+      <a href="/research/navigation/" class="pagination--pager" title="Robot Navigation and Perception
 ">Next</a>
     
   </nav>
@@ -317,7 +334,7 @@ This work aims to **TODO**. -->
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2023 Huy T. Tran. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2024 Huy T. Tran. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

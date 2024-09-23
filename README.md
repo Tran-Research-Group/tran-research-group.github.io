@@ -29,6 +29,12 @@ Add a new news item by creating a new `/_posts/news-name.md` file (use `/docs/te
 
 Update the publications page by exporting a `papers.bib` file with the desired publications. If using Zotero, export using the native Zotero export function, not BetterBibTeX. Items with a DOI entry will show a DOI button; if the DOI entry link contains "arXiv", an arXiv button will be shown instead. Items with a URL entry will show a PDF button.
 
+## Updating the theme (e.g., font size, font color)
+
+New elements (e.g., the `figure-full-caption` element) can be added to `_sass/minimal-mistakes.scss`.
+
+Base font changes (e.g., font size, font color) can be made in `_sass/variables.scss`. Please mark these with a comment noting it was changed from the base theme.
+
 # Installation
 
 1. Install [Jekyll](https://jekyllrb.com/docs/installation/) (if needed). The installation should include Ruby, Bundler, and Jekyll. I would suggest a local install.

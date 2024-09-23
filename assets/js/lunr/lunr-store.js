@@ -95,33 +95,45 @@ var store = [{
         "url": "/news/NASA-CAMS/",
         "teaser": null
       },{
-        "title": "Human-robot Teaming",
-        "excerpt":"We work on learning methods to create autonomous robots (and more general agents) that can effectively partner with different humans in collaborative tasks, like search-and-rescue, space exploration, and autonomous construction. Fast adaptation for ad hoc human-robot teams This work explores ways to quickly adapt robot decision policies to account for...","categories": [],
-        "tags": ["artificial intelligence","human-agent teaming","multi-agent systems","reinforcement learning"],
-        "url": "/research/hat/",
-        "teaser": "/assets/images/hum-t.png"
+        "title": "Jacob presented at the RLC 2024 CoCoMARL Workshop!",
+        "excerpt":"Jacob gave a poster presentation of our paper “Coordination Machines for Minimizing Communication in Multi-Agent Reinforcement Learning” at the Coordination and Cooperation in Multi-Agent Reinforcement Learning (CoCoMARL) Workshop at the Reinforcement Learning Conference (RLC) 2024! We present a hierarchical method for minimizing communications subject to mission success requirements. Check out...","categories": ["news"],
+        "tags": ["artificial intelligence","multi-agent systems","reinforcement learning"],
+        "url": "/news/cocomarl-cms/",
+        "teaser": null
       },{
-        "title": "Intelligent Transportation Systems",
-        "excerpt":"We work on artificial intelligence and machine learning methods to improve autonomy and traffic management in intelligent transportation systems (ITS). Learning emergent coordination in collective autonomous air mobility systems (CAMS) This work explores reinforcement learning algorithms for encouraging emergent cooperation in autonomous air mobility vehicles, with consideration of heterogeneity (e.g.,...","categories": [],
-        "tags": ["intelligent transportation systems","reinforcement learning"],
-        "url": "/research/its/",
-        "teaser": "/assets/images/its.jpeg"
+        "title": "Ad hoc Teaming in Multi-robot Systems",
+        "excerpt":"We work on algorithms for robots to adapt to new teammates in ad hoc multi-robot teams. This work was funded in part by ONR N00014-20-1-2249. Generalized policy improvement for coordination in ad hoc teams We demonstrated our method in a two-agent collect game, where different teammates (triangles) are trained to...","categories": [],
+        "tags": ["artificial intelligence","multi-agent systems","reinforcement learning","robotics"],
+        "url": "/research/aht/",
+        "teaser": "/assets/images/research/aht.png"
       },{
-        "title": "Multi-agent RL",
-        "excerpt":"We work on multi-agent reinforcement learning (MARL) methods to create teams of autonomous agents that can work together to solve challenging tasks, such as search-and-rescue, traffic control, autonomous driving, and warehouse robotics. Communication-aware learning with mission constraints This work explores theory and algorithms for autonomous agents to coordinate in a...","categories": [],
+        "title": "Collective Autonomous Air Mobility Systems",
+        "excerpt":"We work on methods for coordinating many agents in collective autonomous air mobility systems (CAAMS), like urban air mobility and drone firefighting. We specifically aim to encourage emergent cooperation in CAAMS, with consideration of heterogeneity (e.g., individual objectives, capabilities) and the overall integrated system (e.g., vehicles and their interactions with...","categories": [],
+        "tags": ["artificial intelligence","intelligent transportation systems","multi-agent systems","reinforcement learning","robotics"],
+        "url": "/research/cams/",
+        "teaser": "/assets/images/research/uam.jpeg"
+      },{
+        "title": "Hierarchical Reinforcement Learning",
+        "excerpt":"We work on hierarchical reinforcement learning (HRL) methods to create autonomous agents that can efficiently solve complex tasks. This work was funded in part by DARPA FA8750-18C-0137 and ONR N00014-20-1-2249. Bioinspired discovery of hierarchical subtasks Value maps for two learned sub-policies. The object-based option is learned using features specialized to...","categories": [],
+        "tags": ["artificial intelligence","reinforcement learning"],
+        "url": "/research/hrl/",
+        "teaser": "/assets/images/research/hrl.png"
+      },{
+        "title": "Interpretable AI Agents",
+        "excerpt":"We work on methods to interpret or explain autonomous agents, with a focus on those that use artificial intelligence-based decision making policies. This work was funded in part by ONR N00014-20-1-2249. Searching for temporal logic explanations of reinforcement learning agents This work proposes a greedy search over a class of...","categories": [],
+        "tags": ["artificial intelligence","controls","reinforcement learning"],
+        "url": "/research/interpretable-ai/",
+        "teaser": "/assets/images/research/ltl.png"
+      },{
+        "title": "Multi-agent Reinforcement Learning",
+        "excerpt":"We work on multi-agent reinforcement learning (MARL) algorithms for coordinating agents in cooperative tasks, such as search-and-rescue, surveillance missions, and warehouse robotics. This work was funded in part by ARL W911NF2020184, NASA 80NSSC23M0221, and ONR N00014-20-1-2249. Coordination machines for minimizing communications in MARL Our method optimizes policies to make decisions...","categories": [],
         "tags": ["artificial intelligence","multi-agent systems","reinforcement learning"],
         "url": "/research/marl/",
-        "teaser": "/assets/images/dissc.png"
+        "teaser": "/assets/images/research/dissc.png"
       },{
-        "title": "Reinforcement Learning",
-        "excerpt":"We work on reinforcement learning (RL) methods to create autonomous agents that can efficiently solve complex tasks. Bioinspired discovery of hierarchical subtasks Value maps for two learned sub-policies. The object-based option is learned using features specialized to focus on dynamic objects - it appears to have the blue agent prevent...","categories": [],
-        "tags": ["artificial intelligence","reinforcement learning"],
-        "url": "/research/reinforcement-learning/",
-        "teaser": "/assets/images/hrl.png"
-      },{
-        "title": "Robotics and Autonomy",
-        "excerpt":"We work on artificial intelligence and controls methods for robots and other autonomous systems (e.g., for space and urban air mobility). Explaining autonomous agents This work leverages formal methods to infer human-interpretable explanations of data-driven autonomous agents, such as those trained using deep reinforcement learning. Traversability for robot navigation in...","categories": [],
-        "tags": ["controls","formal methods","reinforcement learning"],
-        "url": "/research/robotics/",
-        "teaser": "/assets/images/lunar-lander.jpeg"
+        "title": "Robot Navigation and Perception",
+        "excerpt":"We work on methods for autonomous robot navigation and perception in unstructured and uncertain environments, like outdoor areas. This work was funded in part by Army W9132T-19-C-0006, the MITRE Corporation research agreement 126392, and ONR N00014-20-1-2249. Traversability for robot navigation in the field Our system predicts traversable paths for autonomous...","categories": [],
+        "tags": ["machine learning","robotics"],
+        "url": "/research/navigation/",
+        "teaser": "/assets/images/research/WayFAST2.jpg"
       }]
