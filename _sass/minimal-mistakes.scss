@@ -125,7 +125,7 @@ figcaption-team {
     &.logo {
       display: inline-block;
       color: $muted-text-color;
-      font-size: $type-size-6;
+      font-size: $type-size-7;
       padding-right: 10px;
       i {
         font-size: $doc-font-size;
@@ -172,7 +172,7 @@ caption-ugrad {
     &.name {
       display: block;
       font-family: $header-font-family;
-      font-size: $h-size-2;
+      font-size: $h-size-6;
     }
 
     &.info {
@@ -241,6 +241,7 @@ figure-full-caption {
   align-items: flex-start;
   flex-wrap: wrap;
   margin: 2em 0;
+  // caption font size defined by `figcaption` in `_sass/minimal-mistakes/_base.scss`
 
   img,
   iframe,
@@ -394,6 +395,7 @@ figure-full-caption-small {
 	background-color: $code-background-color;
   border: 1px solid $border-color;
   color: $link-color;
+  font-size: $type-size-7;
   padding-left: $padding-medium;
   padding-right: $padding-medium;
   padding-top: $padding-small;
@@ -408,7 +410,8 @@ figure-full-caption-small {
 /* Publications (modifed from al-folio) */
 .publications {
   h2.year {
-    color: $h2-color;
+    color: $gray;
+    font-size: $h-size-6;
     border-top: 1px solid $border-color;
     border-bottom: none;
     padding-top: $padding-small;
@@ -442,9 +445,11 @@ figure-full-caption-small {
       //   }
       // }
       .title {
+        font-size: $type-size-6;
         font-weight: bold;
       }
       .author {
+        font-size: $type-size-6;
         // link for co-authors
         // a {
         //   border-bottom: 1px dashed;
@@ -460,12 +465,16 @@ figure-full-caption-small {
           // color: $emphasis-color;
         }
       }
+      .venue {
+        font-size: $type-size-6;
+      }
       .links {
         padding-top: $padding-smallest;
         a.btn {
           background-color: $code-background-color;
           border: 1px solid $border-color;
           color: $link-color;
+          font-size: $type-size-7;
           padding-left: $padding-medium;
           padding-right: $padding-medium;
           padding-top: $padding-small;

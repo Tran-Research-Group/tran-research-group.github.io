@@ -34,7 +34,7 @@
 .archive__subtitle {
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
-  font-size: $type-size-5;
+  font-size: $h-size-6;  // defines post year font size
   color: $muted-text-color;
   border-bottom: 1px solid $border-color;
 
@@ -46,6 +46,7 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
+  font-size: $type-size-6; // defines post title font size
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -74,7 +75,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-5;  // home page intro.excerpt font size
+  font-size: $type-size-6;  // home page intro.excerpt font size
 
   & + p {
     text-indent: 0;
@@ -211,7 +212,7 @@
 
   .archive__item-title {
     margin-top: 0.5em;
-    font-size: $type-size-5; // home page grid__wrapper post title font size
+    font-size: $h-size-6; // home page grid__wrapper post title font size
   }
 
   .archive__item-excerpt {
@@ -219,7 +220,7 @@
 
     @include breakpoint($medium) {
       display: block;
-      font-size: $type-size-6;  // home page grid__wrapper post content font size
+      font-size: $type-size-7;  // home page grid__wrapper post content font size
     }
   }
 

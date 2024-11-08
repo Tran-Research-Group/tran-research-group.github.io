@@ -79,6 +79,7 @@
           </div>
 
           <!-- Journal/Book title and date -->
+          <div class="venue">
           {% if entry.type == "article" -%}
             {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
           {%- elsif entry.type == "inproceedings" -%}
@@ -98,6 +99,7 @@
             {{ periodical | strip }}
           </div>
         {%- endif %}
+        </div>
         
           <!-- Links/Buttons -->
           <div class="links">
