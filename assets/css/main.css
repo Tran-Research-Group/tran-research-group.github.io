@@ -20,6 +20,7 @@
 /* serif typefaces */
 /* type scale */
 /* headline scale */
+/* added by Huy */
 /*
    Colors
    ========================================================================== */
@@ -1610,7 +1611,7 @@ th {
   font-size: 1em;
 }
 .btn--small {
-  font-size: 0.6875em;
+  font-size: 0.75em;
 }
 
 /* ==========================================================================
@@ -1963,7 +1964,7 @@ th {
 
 .site-subtitle {
   display: block;
-  font-size: 0.625em;
+  font-size: 0.6875em;
 }
 
 .masthead__menu {
@@ -2485,7 +2486,7 @@ th {
 }
 @media (min-width: 64em) {
   .toc__menu {
-    font-size: 0.6875em;
+    font-size: 0.75em;
   }
 }
 .toc__menu a {
@@ -2572,7 +2573,7 @@ th {
 
 .page__footer-copyright {
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.6875em;
+  font-size: 0.75em;
 }
 
 .page__footer-follow ul {
@@ -3781,7 +3782,7 @@ body {
   padding: 2px 5px;
   color: #fff;
   font-family: Georgia, Times, serif;
-  font-size: 0.6875em;
+  font-size: 0.75em;
   background: #000;
   text-align: right;
   z-index: 5;
@@ -4146,6 +4147,7 @@ body {
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-size: 0.875em;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -4170,7 +4172,7 @@ body {
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: 1em;
+  font-size: 0.875em;
 }
 .archive__item-excerpt + p {
   text-indent: 0;
@@ -4196,7 +4198,7 @@ body {
   padding: 2px 5px;
   color: #fff;
   font-family: Georgia, Times, serif;
-  font-size: 0.625em;
+  font-size: 0.6875em;
   background: #000;
   text-align: right;
   z-index: 5;
@@ -4292,7 +4294,7 @@ body {
 }
 .grid__item .archive__item-title {
   margin-top: 0.5em;
-  font-size: 1em;
+  font-size: 0.875em;
 }
 .grid__item .archive__item-excerpt {
   display: none;
@@ -5105,14 +5107,13 @@ figcaption-team span.name {
 figcaption-team span.info {
   display: block;
   color: #646769;
+  font-size: 0.875em;
 }
 figcaption-team span.logo {
   display: inline-block;
   color: #646769;
+  font-size: 0.875em;
   padding-right: 10px;
-}
-figcaption-team span.logo i {
-  font-size: 16;
 }
 
 nofigure-ugrad {
@@ -5143,7 +5144,7 @@ caption-ugrad span {
 caption-ugrad span.name {
   display: block;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 1.25em;
+  font-size: 1em;
 }
 caption-ugrad span.info {
   display: block;
@@ -5337,6 +5338,7 @@ figure-full-caption-small.third figcaption {
   background-color: #fafafa;
   border: 1px solid #f2f3f3;
   color: #2f7d95;
+  font-size: 0.75em;
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 0.5em;
@@ -5350,7 +5352,8 @@ figure-full-caption-small.third figcaption {
 
 /* Publications (modifed from al-folio) */
 .publications h2.year {
-  color: #bdc1c4;
+  color: #646769;
+  font-size: 1em;
   border-top: 1px solid #f2f3f3;
   border-bottom: none;
   padding-top: 0.5em;
@@ -5360,10 +5363,17 @@ figure-full-caption-small.third figcaption {
   margin-top: 0;
 }
 .publications ol.bibliography li .title {
+  font-size: 0.875em;
   font-weight: bold;
+}
+.publications ol.bibliography li .author {
+  font-size: 0.875em;
 }
 .publications ol.bibliography li .author > em {
   font-style: normal;
+}
+.publications ol.bibliography li .venue {
+  font-size: 0.875em;
 }
 .publications ol.bibliography li .links {
   padding-top: 0.125em;
@@ -5372,6 +5382,7 @@ figure-full-caption-small.third figcaption {
   background-color: #fafafa;
   border: 1px solid #f2f3f3;
   color: #2f7d95;
+  font-size: 0.75em;
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 0.5em;
