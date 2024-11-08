@@ -23,13 +23,13 @@ minimal_mistakes_skin    : default # "air", "aqua", "contrast", "dark", "dirt", 
 # in the templates via {{ site.myvariable }}.
 locale: "en-US"
 name: "Huy T. Tran"
-title: "Tran Research Group"  # the website title (if blank, full name will be used instead)
+title: "LIRA@illinois"  # the website title (if blank, full name will be used instead)
 title_separator: ""
 subtitle: # site tagline that appears below site title in masthead
 description: "Website for the Tran Research Group"
 url: "https://tran.aerospace.illinois.edu" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
-repository: huytrtran/huytrtran.github.io  # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository: tran-research-group/tran-research-group.github.io  # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 search: true
@@ -52,9 +52,9 @@ author:
     - label: "Google Scholar"
       icon: "fa fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=TgaPukcAAAAJ&hl=en"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/huytrtran"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/huytrtran"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tran-research-group"
@@ -74,9 +74,9 @@ footer:
     - label: "Google Scholar"
       icon: "fa fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=TgaPukcAAAAJ&hl=en"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/huytrtran"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/huytrtran"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/tran-research-group"
