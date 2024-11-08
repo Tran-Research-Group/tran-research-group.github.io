@@ -41,6 +41,8 @@
 
 /* Modifications to base minimal-mistakes theme */
 
+// Font size variables are defined in `_sass/minimial-mistakes/_variables.scss`
+
 /* Colors */
 $uiuc-orange-color: #FF552E;
 $uiuc-blue-color: #13294B;
@@ -104,13 +106,13 @@ figcaption-team {
     &.name {
       display: block;
       font-family: $header-font-family;
-      font-size: $h-size-2;
+      font-size: $h-size-large;
     }
 
     &.info {
       display: block;
       color: $muted-text-color;
-      font-size: $type-size-6;
+      font-size: $type-size-default;
       // a {
       //   -webkit-transition: inherit;
       //   transition: inherit;
@@ -125,11 +127,11 @@ figcaption-team {
     &.logo {
       display: inline-block;
       color: $muted-text-color;
-      font-size: $type-size-7;
+      font-size: $type-size-default;
       padding-right: 10px;
-      i {
-        font-size: $doc-font-size;
-      }
+      // i {
+      //   font-size: $doc-font-size;
+      // }
       // a {
       //   -webkit-transition: inherit;
       //   transition: inherit;
@@ -172,7 +174,7 @@ caption-ugrad {
     &.name {
       display: block;
       font-family: $header-font-family;
-      font-size: $h-size-6;
+      font-size: $h-size-default;
     }
 
     &.info {
@@ -395,7 +397,7 @@ figure-full-caption-small {
 	background-color: $code-background-color;
   border: 1px solid $border-color;
   color: $link-color;
-  font-size: $type-size-7;
+  font-size: $type-size-small;
   padding-left: $padding-medium;
   padding-right: $padding-medium;
   padding-top: $padding-small;
@@ -410,8 +412,8 @@ figure-full-caption-small {
 /* Publications (modifed from al-folio) */
 .publications {
   h2.year {
-    color: $gray;
-    font-size: $h-size-6;
+    color: $muted-text-color;
+    font-size: $h-size-default;
     border-top: 1px solid $border-color;
     border-bottom: none;
     padding-top: $padding-small;
@@ -445,11 +447,11 @@ figure-full-caption-small {
       //   }
       // }
       .title {
-        font-size: $type-size-6;
+        font-size: $type-size-default;
         font-weight: bold;
       }
       .author {
-        font-size: $type-size-6;
+        font-size: $type-size-default;
         // link for co-authors
         // a {
         //   border-bottom: 1px dashed;
@@ -466,7 +468,7 @@ figure-full-caption-small {
         }
       }
       .venue {
-        font-size: $type-size-6;
+        font-size: $type-size-default;
       }
       .links {
         padding-top: $padding-smallest;
@@ -474,7 +476,7 @@ figure-full-caption-small {
           background-color: $code-background-color;
           border: 1px solid $border-color;
           color: $link-color;
-          font-size: $type-size-7;
+          font-size: $type-size-small;
           padding-left: $padding-medium;
           padding-right: $padding-medium;
           padding-top: $padding-small;

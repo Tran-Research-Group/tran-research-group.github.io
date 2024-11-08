@@ -53,6 +53,14 @@ $h-size-5: 1.03125em !default; // ~16.5px
 $h-size-6: 1em !default; // ~16px
 $h-size-7: 0.8750em !default; // ~14px
 
+/* added by Huy */
+$type-size-large: $type-size-5;
+$type-size-default: $type-size-6;
+$type-size-small: $type-size-7;
+$h-size-large: $type-size-4;
+$h-size-default: $type-size-5;
+$h-size-small: $type-size-6;
+
 /*
    Colors
    ========================================================================== */
