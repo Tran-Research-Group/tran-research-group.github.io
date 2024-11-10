@@ -113,7 +113,8 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
+    // font-size: 1em;
+    font-size: $type-size-default;  // controls font size for home page intro.except, basic font used in other pages, and font used in publication page
   }
 
   /* paragraph indents */

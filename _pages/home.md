@@ -13,7 +13,8 @@ header:
 #   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 # excerpt font size defined by `.page__lead.font-size` in `_sass/minimal-mistakes/_page.scss`
 excerpt: "Advancing autonomy through interdisciplinary research."
-# intro.excerpt font size defined by `.archive__item-excerpt` in `_sass/minimal-mistakes/_archive.scss`
+# intro.excerpt font size defined by `.archive__item-excerpt` in `_sass/minimal-mistakes/_archive.scss` (used to think so)
+# intro.excerpt font size defined by `.page__content` in `_sass/minimal-mistakes/_pare.scss` (seems to be a little larger)
 intro: 
   - excerpt: "Welcome to the Lab for Intelligent Robots and Agents (LIRA)! Our goal is to advance research on autonomous and intelligent systems with a focus on robots that interact with each other and humans. We primarily work at the intersection of robotics, artificial intelligence, and multi-agent systems, though we draw inspiration from other fields as well."
   - excerpt: "Check out our [research](/research/) to learn more!"

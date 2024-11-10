@@ -7,6 +7,7 @@
    ========================================================================== */
 
 $doc-font-size: 16 !default;
+// $doc-font-size: 0.8750em !default; // ~14px
 
 /* paragraph indention */
 $paragraph-indent: false !default; // true, false (default)
@@ -57,6 +58,7 @@ $h-size-7: 0.8750em !default; // ~14px
 $type-size-large: $type-size-5;
 $type-size-default: $type-size-6;
 $type-size-small: $type-size-7;
+$type-size-smaller: $type-size-8;
 $h-size-large: $type-size-4;
 $h-size-default: $type-size-5;
 $h-size-small: $type-size-6;

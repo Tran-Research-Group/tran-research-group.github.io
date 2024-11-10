@@ -42,6 +42,7 @@
 /* Modifications to base minimal-mistakes theme */
 
 // Font size variables are defined in `_sass/minimial-mistakes/_variables.scss`
+// Base page font size defined by `.page__content` in `_sass/minimal-mistakes/_pare.scss`
 
 /* Colors */
 $uiuc-orange-color: #FF552E;
@@ -232,7 +233,7 @@ caption-ugrad {
 }
 
 /* Figures */
-$figure-width: 500px;
+$figure-width: 400px;
 figure-full-caption {
   display: -webkit-box;
   display: flex;
@@ -410,6 +411,7 @@ figure-full-caption-small {
 }
 
 /* Publications (modifed from al-folio) */
+// font size seems smaller than expected
 .publications {
   h2.year {
     color: $muted-text-color;
@@ -425,6 +427,7 @@ figure-full-caption-small {
     margin-top: 0;
 
     li {
+      margin-bottom: $padding-medium;
       // margin-bottom: 1em;
       // .abbr {
       //   height: 2rem;
@@ -476,7 +479,7 @@ figure-full-caption-small {
           background-color: $code-background-color;
           border: 1px solid $border-color;
           color: $link-color;
-          font-size: $type-size-small;
+          font-size: $type-size-smaller;
           padding-left: $padding-medium;
           padding-right: $padding-medium;
           padding-top: $padding-small;

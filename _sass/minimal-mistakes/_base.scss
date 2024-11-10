@@ -265,7 +265,8 @@ figcaption {
   margin-bottom: 0.5em;
   color: $muted-text-color;
   font-family: $caption-font-family;
-  font-size: $type-size-7;
+  // font-size: $type-size-7;
+  font-size: $type-size-small;
 
   a {
     -webkit-transition: $global-transition;

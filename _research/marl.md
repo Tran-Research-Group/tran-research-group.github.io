@@ -35,7 +35,7 @@ This work proposes **coordination machines (CMs)**, a hierarchical model for min
 
 ## Addressing multi-agent credit assignment with successor features
 
-<video muted autoplay="autoplay" loop="loop" width="500px" controls>
+<video muted autoplay="autoplay" loop="loop" width="400px" controls>
   <source src="/assets/videos/dissc.mp4" type="video/mp4">
 </video>
 

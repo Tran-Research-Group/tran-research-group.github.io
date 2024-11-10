@@ -34,7 +34,7 @@ Inspired by recent discoveries in neuroscience, this work explores the use of fe
 
 ## Adaptation in HRL
 
-<video muted autoplay="autoplay" loop="loop" width="50%" controls>
+<video muted autoplay="autoplay" loop="loop" width="400px" controls>
   <source src="/assets/videos/hrl.mp4" type="video/mp4">
 </video>
 
