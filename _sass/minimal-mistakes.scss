@@ -373,6 +373,36 @@ figure-full-caption-small {
     }
   }
 }
+// TODO
+$right-sidebar-width-tiny: 50px !default;
+.wide_partial {
+  .page {
+    float: right;
+    width: 90%;
+    @include breakpoint($large) {
+      float: right;
+      width: calc(100% - #{$right-sidebar-width-tiny});
+      padding-right: $right-sidebar-width-tiny;
+    }
+
+    @include breakpoint($x-large) {
+      width: calc(100% - #{$right-sidebar-width});
+      padding-right: $right-sidebar-width;
+    }
+  }
+
+  .page__related {
+    @include breakpoint($large) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    @include breakpoint($x-large) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
 
 /* Archive layouts */
 .archive {
@@ -413,6 +443,7 @@ figure-full-caption-small {
 /* Publications (modifed from al-folio) */
 // font size seems smaller than expected
 .publications {
+  font-size: $type-size-default;
   h2.year {
     color: $muted-text-color;
     font-size: $h-size-default;
@@ -450,11 +481,11 @@ figure-full-caption-small {
       //   }
       // }
       .title {
-        font-size: $type-size-default;
+        // font-size: $type-size-large;
         font-weight: bold;
       }
       .author {
-        font-size: $type-size-default;
+        // font-size: $type-size-large;
         // link for co-authors
         // a {
         //   border-bottom: 1px dashed;
@@ -471,7 +502,8 @@ figure-full-caption-small {
         }
       }
       .venue {
-        font-size: $type-size-default;
+        // font-size: $type-size-large;
+        font-style: italic;
       }
       .links {
         padding-top: $padding-smallest;
