@@ -101,6 +101,18 @@ var store = [{
         "url": "/news/cocomarl-cms/",
         "teaser": null
       },{
+        "title": "Our paper on explainable RL was accepted to L-CSS!",
+        "excerpt":"Our paper “On Generating Explanations for Reinforcement Learning Policies: An Empirical Study” was accepted to IEEE Control Systems Letters! We present a local-search method for explaining reinforcement learning policies using temporal logic. This work was led by Miki Yuasa.   Check out the paper!  ","categories": ["news"],
+        "tags": ["artificial intelligence","formal methods","reinforcement learning"],
+        "url": "/news/lcss/",
+        "teaser": null
+      },{
+        "title": "Niket and Rupal presented at SciTech 2025!",
+        "excerpt":"Niket and Rupal presented two papers at the 2025 AIAA SciTech Forum. Niket presented a paper titled “Inefficiency of Self-Interested Behaviour in Markov Games: State-Dependent Price of Anarchy” which was a Finalist for the ISTC SciTech Student Paper competition. Rupal presented a paper titled “A Survey of Current Applications of...","categories": ["news"],
+        "tags": ["artificial intelligence","multi-agent systems","reinforcement learning"],
+        "url": "/news/scitech/",
+        "teaser": null
+      },{
         "title": "Ad hoc Teaming in Multi-robot Systems",
         "excerpt":"We work on algorithms for robots to adapt to new teammates in ad hoc multi-robot teams. This work was funded in part by ONR N00014-20-1-2249. Generalized policy improvement for coordination in ad hoc teams We demonstrated our method in a two-agent collect game, where different teammates (triangles) are trained to...","categories": [],
         "tags": ["artificial intelligence","multi-agent systems","reinforcement learning","robotics"],
@@ -120,7 +132,7 @@ var store = [{
         "teaser": "/assets/images/research/hrl.png"
       },{
         "title": "Interpretable AI Agents",
-        "excerpt":"We work on methods to interpret or explain autonomous agents, with a focus on those that use artificial intelligence-based decision making policies. This work was funded in part by ONR N00014-20-1-2249. Searching for temporal logic explanations of reinforcement learning agents This work proposes a greedy search over a class of...","categories": [],
+        "excerpt":"We work on methods to interpret or explain autonomous agents, with a focus on those that use artificial intelligence-based decision making policies. This work was funded in part by ONR N00014-20-1-2249. Searching for temporal logic explanations of reinforcement learning agents A partial trace of our search method with weighted Kullback-Leibler...","categories": [],
         "tags": ["artificial intelligence","controls","reinforcement learning"],
         "url": "/research/interpretable-ai/",
         "teaser": "/assets/images/research/ltl.png"

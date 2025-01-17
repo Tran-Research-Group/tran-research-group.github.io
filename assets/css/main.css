@@ -5285,6 +5285,50 @@ figure-full-caption-small.third figcaption {
   width: 100%;
 }
 
+figure-full-caption-very-large {
+  display: -webkit-box;
+  display: flex;
+  flex-flow: column; /* caption below image */
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 2em 0;
+}
+figure-full-caption-very-large img,
+figure-full-caption-very-large iframe,
+figure-full-caption-very-large .fluid-width-video-wrapper {
+  margin-bottom: 1em;
+}
+figure-full-caption-very-large img {
+  width: 800px;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+figure-full-caption-very-large > a {
+  display: block;
+}
+@media (min-width: 37.5em) {
+  figure-full-caption-very-large.half > a,
+  figure-full-caption-very-large.half > img {
+    width: calc(50% - 0.5em);
+  }
+}
+figure-full-caption-very-large.half figcaption {
+  width: 100%;
+}
+@media (min-width: 37.5em) {
+  figure-full-caption-very-large.third > a,
+  figure-full-caption-very-large.third > img {
+    width: calc(33.3333% - 0.5em);
+  }
+}
+figure-full-caption-very-large.third figcaption {
+  width: 100%;
+}
+
 /* Wide layout (no left or right sidebar) */
 .wide_full .page {
   float: left;
