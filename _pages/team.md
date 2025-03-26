@@ -214,8 +214,14 @@ permalink: /team/
 # Pictures
 
 <figure-full-caption>
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/team/2025-ames.png"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/2025-ames.png"></a>
+	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/team/2025-nra.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/2025-nra.jpg"></a>
+	<figcaption>Niket, Rupal, Huy, and other colleagues at a 2025 NASA TTT program review at the NASA Ames Research Center.</figcaption>
+</figure-full-caption>
+
+<figure-full-caption>
 	<a href="{{ site.url }}{{ site.baseurl }}/assets/images/team/2023-iros.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/team/2023-iros.jpg"></a>
-	<figcaption>Some group members at IROS 2023 in Detroit, MI.</figcaption>
+	<figcaption>Miki, Niket, Huy, and Rupal at IROS 2023 in Detroit, MI.</figcaption>
 </figure-full-caption>
 
 <figure-full-caption>
