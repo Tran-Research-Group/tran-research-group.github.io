@@ -102,7 +102,7 @@
 }
 
 @inproceedings{kim2022,
-  title = {Coordination in {{Multi-agent Reinforcement Learning}} with {{Successor Features}}},
+  title = {Disentangling {{Successor Features}} for {{Coordination}} in {{Multi-agent Reinforcement Learning}}},
   booktitle = {Proc. of the 21st {{International Conference}} on {{Autonomous Agents}} and {{Multiagent Systems}} ({{AAMAS}} 2022)},
   author = {Kim, Seung Hyun and Stralen, Neale Van and Chowdhary, Girish and Tran, Huy T},
   year = {2022},
@@ -147,6 +147,28 @@
   abstract = {Multi-agent reinforcement learning (MARL) is a recently popular approach for solving complex tasks with multiple agents present. Ad hoc teaming (AHT) is a more specific problem formulation in which an agent must successfully coordinate with other previously unseen teammates. We model our problem within the framework of a multi-agent Markov decision process (MMDP) and use successor features and generalized policy improvement for efficient and effective knowledge transfer between different teams. Theoretical optimality bounds are derived and an algorithm is proposed for zero-shot coordination with an ad hoc team. We empirically demonstrate that our method successfully transfers to new teams in a collaborative object-collecting game environment.},
   langid = {english},
   file = {/Users/httran/Zotero/storage/YAWKA3ET/Nigam et al. - Coordination in Ad Hoc Teams with Generalized Policy Improvement.pdf}
+}
+
+@inproceedings{nigam2025,
+  title = {A {{Survey}} of {{Current Applications}} of {{Inverse Reinforcement Learning}} in {{Aviation}} and {{Future Outlooks}}},
+  booktitle = {{{AIAA SCITECH}} 2025 {{Forum}}},
+  author = {Nigam, Rupal and Choi, Jimin and Parikh, Niket and Li, Max Z and Tran, Huy T},
+  year = {2025},
+  address = {Orlando, FL},
+  doi = {10.2514/6.2025-1540},
+  langid = {english},
+  file = {/Users/httran/Zotero/storage/M4BU3BBC/Nigam et al. - A Survey of Current Applications of Inverse Reinforcement Learning in Aviation and Future Outlooks.pdf}
+}
+
+@inproceedings{parikh2025,
+  title = {Inefficiency of {{Self-Interested Behaviour}} in {{Markov Games}}: {{State-Dependent Price}} of {{Anarchy}}},
+  booktitle = {{{AIAA SCITECH}} 2025 {{Forum}}},
+  author = {Parikh, Niket and Nigam, Rupal and Li, Max Z and Tran, Huy T},
+  year = {2025},
+  address = {Orlando, FL},
+  doi = {10.2514/6.2025-1929},
+  langid = {english},
+  file = {/Users/httran/Zotero/storage/AZHDGWC8/Parikh et al. - Inefficiency of Self-Interested Behaviour in Markov Games State-Dependent Price of Anarchy.pdf}
 }
 
 @inproceedings{stralen2020,
@@ -283,21 +305,20 @@
   file = {/Users/httran/Zotero/storage/DLC89E2I/Wong et al. - 2020 - Data-driven Analysis of Resilience in Airline Networks(2).pdf}
 }
 
-@misc{yuasa2023,
+@article{yuasa2024,
   title = {On {{Generating Explanations}} for {{Reinforcement Learning Policies}}: {{An Empirical Study}}},
   shorttitle = {On {{Generating Explanations}} for {{Reinforcement Learning Policies}}},
   author = {Yuasa, Mikihisa and Tran, Huy T. and Sreenivas, Ramavarapu S.},
-  year = {2023},
-  month = sep,
-  number = {arXiv:2309.16960},
-  eprint = {2309.16960},
-  primaryclass = {cs},
-  publisher = {arXiv},
-  url = {http://arxiv.org/abs/2309.16960},
-  urldate = {2023-11-08},
-  abstract = {Understanding a Reinforcement Learning policy, which guides state-to-action mappings to maximize rewards, necessitates an accompanying explanation for human comprehension. In this paper, we introduce a set of Linear Temporal Logic (LTL) formulae designed to provide explanations for policies. Our focus is on crafting explanations that elucidate both the ultimate objectives accomplished by the policy and the prerequisites it upholds throughout its execution. These LTLbased explanations feature a structured representation, which is particularly well-suited for local-search techniques. The effectiveness of our proposed approach is illustrated through a simulated capture the flag environment. The paper concludes with suggested directions for future research.},
-  archiveprefix = {arXiv},
+  year = {2024},
+  journal = {IEEE Control Syst. Lett.},
+  volume = {8},
+  pages = {3027--3032},
+  issn = {2475-1456},
+  doi = {10.1109/LCSYS.2024.3519301},
+  url = {https://ieeexplore.ieee.org/document/10804622/},
+  urldate = {2025-01-06},
+  abstract = {Explaining reinforcement learning policies is important for deploying them in real-world scenarios. We introduce a set of linear temporal logic formulae designed to provide such explanations, and an algorithm for searching through those formulae for the one that best explains a given policy. Our key idea is to compare action distributions from the target policy with those from policies optimized for candidate explanations. This comparison provides more insight into the target policy than existing methods and avoids inference of ``catch-all'' explanations. We demonstrate our method in a simulated game of capture-the-flag, a car-parking environment, and a robot navigation task.},
+  copyright = {https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html},
   langid = {english},
-  keywords = {Computer Science - Artificial Intelligence},
-  file = {/Users/httran/Zotero/storage/HDYCRHKG/Yuasa et al. - 2023 - On Generating Explanations for Reinforcement Learning Policies An Empirical Study.pdf}
+  file = {/Users/httran/Zotero/storage/2AC2RTWV/Yuasa et al. - 2024 - On Generating Explanations for Reinforcement Learning Policies An Empirical Study.pdf}
 }
